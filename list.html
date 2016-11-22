@@ -17,8 +17,9 @@
     <link href="assets/lib/bxslider/jquery.bxslider.css" rel="stylesheet" />
     <script src="assets/lib/bxslider/jquery.bxslider.min.js"></script>
 
-    <!--Circle Progress -->
-    <script src="assets/lib/circle-progress/circle-progress.js"></script>
+    <!--selectize -->
+    <script src="assets/lib/select/selectize.js"></script>
+    <link href="assets/lib/select/selectize.default.css" rel="stylesheet" />
 
     <!-- Font awesome -->
     <link href="assets/lib/bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
@@ -128,7 +129,7 @@ and foodwear</a></li>
                                   <li>
                                       <a href="#">Boys<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                   </li>
-                                  <li>
+                                  
                               </ul>
                       </div>
                       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 nav-logo">
@@ -145,13 +146,13 @@ and foodwear</a></li>
                                       <a href="#about">Summer<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                   </li>
                                   <li>
-                                      <a href="#service">Shoes<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                      <a href="#service">Blog</a>
                                   </li>
 
                                   <li>
-                                      <a href="Blog.html">Accesories<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                      <a href="Blog.html">Contact</a>
                                   </li>
-                                  <li>
+
                               </ul>
                           </div>
                   </div>
@@ -247,12 +248,26 @@ and foodwear</a></li>
             <div class="box-list" id="listing">
                 <div class="container container-custom">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 filter">
-                      <div class="filter-size">
-
+                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 filter-price">
+                          <div class="control-group">
+                            <select id="select-beast-empty" class="demo-default" data-placeholder="Select a person...">
+                              <option value="selected">Sort by: Newest items</option>
+                              <option value="trending">Trending items</option>
+                              <option value="sales">Best sellers</option>
+                              <option value="rating">Best rated</option>
+                              <option value="price-asc">Price: low to high</option>
+                              <option value="price-desc">Price: high to low</option>
+                            </select>
+                          </div>
                       </div>
-                      <div class="filter-price">
-
+                      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 count-items">
+                        <div class="count-in">
+                          <p>
+                            Show <span>12</span> items
+                          </p>
+                        </div>
                       </div>
+
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 listing">
                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
@@ -344,6 +359,57 @@ and foodwear</a></li>
                           <div class="link-image">
                             <a href="#">
                               <img src="assets/images/img-list6.jpg"/>
+                            </a>
+                          </div>
+                          <div class="link-title">
+                            <a href="#">
+                              RETRO PRINTS FOR A SOPHISTICATED LOOK
+                            </a>
+                            <span class="line-title"></span>
+                            <p class="price">
+                              <span class="original-price">$99</span>
+                              <span class="line-through">$67</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
+                          <div class="link-image">
+                            <a href="#">
+                              <img src="assets/images/img-list7.jpg"/>
+                            </a>
+                          </div>
+                          <div class="link-title">
+                            <a href="#">
+                              RETRO PRINTS FOR A SOPHISTICATED LOOK
+                            </a>
+                            <span class="line-title"></span>
+                            <p class="price">
+                              <span class="original-price">$99</span>
+                              <span class="line-through">$67</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
+                          <div class="link-image">
+                            <a href="#">
+                              <img src="assets/images/img-list8.jpg"/>
+                            </a>
+                          </div>
+                          <div class="link-title">
+                            <a href="#">
+                              RETRO PRINTS FOR A SOPHISTICATED LOOK
+                            </a>
+                            <span class="line-title"></span>
+                            <p class="price">
+                              <span class="original-price">$99</span>
+                              <span class="line-through">$67</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
+                          <div class="link-image">
+                            <a href="#">
+                              <img src="assets/images/img-list9.jpg"/>
                             </a>
                           </div>
                           <div class="link-title">
@@ -544,8 +610,17 @@ Ha Noi Cap, VN</a>
                 controls: null,
                 adaptiveHeight: true
             });
+            $('#select-beast').selectize({
+              create: true,
+              sortField: {
+                  field: 'text',
+                  direction: 'asc'
+              },
+              dropdownParent: 'body'
+          });
         });
     </script>
+
 
 </body>
 

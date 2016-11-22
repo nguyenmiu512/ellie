@@ -429,6 +429,7 @@ margin: 12px auto;
 	height: 129px;
 	background-size: contain;
 	border-radius: inherit !important;
+	margin-bottom: 0px !important;
 }
 .in-box-breadcrumn a{
 	padding-top: 32px;
@@ -469,11 +470,87 @@ padding-left: 6px;
 }
 /***** BOX LIST close ********/
 
+/***** BOX SELECT JS open ********/
+.filter-price{
+	display: inline-block;
+  margin-bottom: 20px;
+	width: 22%;
+}
+.filter-price .control-group{
+	position: relative;
+	padding-right: 10px;
+	margin-right: 5px;
+	background: transparent;
+	border-left: 3px solid #ffae28;
+}
+.filter-price select{
+	outline: inherit;
+	box-sizing: border-box;
+	width: 190px;
+	padding: 0 25px 0 20px;
+	background: none;
+	border: 0;
+	font-size: 14px;
+	height: 28px;
+	line-height: 28px;
+	color: #666;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+.filter-price::before{
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #666;
+	border-top: none;
+	height: 0;
+	width: 0;
+	top: 30%;
+}
+.filter-price::before,
+.filter-price::after{
+	content: "";
+	pointer-events: none;
+	position: absolute;
+	right: 15px;
+}
+.filter-price::after{
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #666;
+	border-bottom: none;
+	height: 0;
+	width: 0;
+	top: 55%;
+}
+.count-in{
+	text-align: right;
+	padding-top: 9px;
+}
+.count-in p{
+	font-size: 16px;
+	font-weight: 100;
+}
+.count-in span{
+	font-weight: bold;
+	color:#ffae28;
+}
+/***** BOX SELECT JS close ********/
+
+
+
 /* PAGINATION open */
 .box-pagination{
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
+}
+.pagination>li>a, .pagination>li>span{
+	color:#000000;
+	margin:0px 5px;
+	border-radius: 50% !important;
+}
+.pagination>li:first-child>a, .pagination>li:first-child>span{
+
 }
 /* PAGINATION close */
 
