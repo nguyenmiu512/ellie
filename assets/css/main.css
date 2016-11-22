@@ -437,6 +437,12 @@ margin: 12px auto;
   color: #fff;
 	font-family: 'Roboto Slab', serif;
 	padding-left: 23px;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.in-box-breadcrumn a span{
+	padding:0px 10px;
 }
 .box-list .items-in-list .link-image a{
 	width: 298px;
@@ -535,6 +541,46 @@ padding-left: 6px;
 	color:#ffae28;
 }
 /***** BOX SELECT JS close ********/
+
+
+
+/***** BOX DETAIL open ********/
+.bx-slider2  .bx-wrapper .bx-controls-direction a.bx-prev{
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	left: -50px;
+}
+.bx-slider2  .bx-wrapper .bx-controls-direction a.bx-next{
+	position: absolute;
+	top: 50%;
+	margin-top: -35px;
+	right: -50px;
+}
+.bx-slider2 .bx-wrapper .bx-controls-direction a{
+	font-size: 0;
+	width: 38px;
+	clear: both;
+	display: block;
+}
+.bx-slider2  .bx-wrapper .bx-controls-direction a.bx-prev:before,
+.bx-slider2  .bx-wrapper .bx-controls-direction a.bx-next:before{
+	content: "\f104";
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 26px;
+	color: #111111;
+	width: 38px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+	margin-bottom: 2px;
+}
+/***** BOX DETAIL close ********/
 
 
 
