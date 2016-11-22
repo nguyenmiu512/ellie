@@ -99,7 +99,7 @@
 	}
 	#home .box-top {
 	    background-color: #fff;
-			border-top:4px solid #ffae28;
+			border-top:3px solid #ffae28;
 			border-bottom: 1px solid #ececec;
 	}
 	#home .box-top-left ul li{
@@ -199,8 +199,8 @@
     background-color: #fff;
     color: #010101;
 		width: 900px;
-		height: 267px;
-		opacity: 0.8;
+		height: 240px;
+		opacity: 0.9;
 }
 .nav-left ul li:hover .drop-down a{
   color: #010101;
@@ -215,14 +215,22 @@
 .drop-down .title-dropdown .title-link-dropdown .link-collect-dropdown{
 	font-size: 14px;
 	color:#515151;
-	font:12px/1.3 'GillSans Light', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	padding-top:20px;
+	font-weight: 100;
 }
 .title-dropdown ul li a{
-	font-size: 14px;
+	font-size: 12px;
 	color:#515151;
-	font:12px/1.3 'GillSans Light', sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-weight: 100;
+}
+.title-dropdown ul li{
+	margin-left: 0px;
+	margin: 9px 0px;
+}
+.title-dropdown ul li a{
+	font-weight: 100 !important;
 }
 /**** DROPDOWN close****/
 
@@ -364,7 +372,8 @@
 }
 .collect-item .list-item-left .info .line-title,
 .collect-item .list-item-left2 .info .line-title,
-.collect-item .list-item-cover .info .line-title{
+.collect-item .list-item-cover .info .line-title,
+.box-list .items-in-list .link-title .line-title{
 	display: block;
 width: 25px;
 height: 3px;
@@ -392,17 +401,19 @@ margin: 12px auto;
 }
 .collect-item .list-item-left .info .title-item a,
 .collect-item .list-item-left2 .info .title-item a,
-.collect-item .list-item-cover .info .title-item a{
+.collect-item .list-item-cover .info .title-item a,
+.box-list .items-in-list .link-title a{
 	font-size: 18px;
 	color:#282828;
 	font-family: 'Roboto Slab', serif;
-	transition: all .5s ease;
+	transition: all .4s ease;
 }
 .collect-item .list-item-left .info .title-item a:hover,
 .collect-item .list-item-right .info .title-item a:hover,
 .collect-item .list-item-right2 .info .title-item a:hover,
 .collect-item .list-item-left2 .info .title-item a:hover,
-.collect-item .list-item-cover .info .title-item a:hover{
+.collect-item .list-item-cover .info .title-item a:hover,
+.box-list .items-in-list .link-title a:hover{
 	color:#ffc360;
 }
 
@@ -411,6 +422,61 @@ margin: 12px auto;
 	margin-bottom: 24px;
 }
 /***** BOX COLLECT close ********/
+
+/***** BOX LIST open ********/
+.breadcrumb{
+	background: url('../images/cover-breadcrumb.jpg') no-repeat 0 0;
+	height: 129px;
+	background-size: contain;
+	border-radius: inherit !important;
+}
+.in-box-breadcrumn a{
+	padding-top: 32px;
+  display: block;
+  color: #fff;
+	font-family: 'Roboto Slab', serif;
+	padding-left: 23px;
+}
+.box-list .items-in-list .link-image a{
+	width: 298px;
+	height: 284px;
+	overflow: hidden;
+	display: block;
+}
+.box-list .items-in-list .link-image a img{
+	width: 100%;
+}
+.box-list .items-in-list .link-title{
+	width: 298px;
+	text-align: center;
+	padding: 22px 0px;
+}
+.box-list .items-in-list .link-title .price .original-price{
+	text-decoration: line-through;
+}
+.box-list .items-in-list .link-title .price .line-through{
+color:#ff9f00;
+font-size: 18px;
+padding-left: 6px;
+}
+.box-list .items-in-list .link-title a{
+		font-family: 'Roboto Slab', serif;
+		font-size: 18px;
+		color:#282828;
+		display: block;
+		height: 50px;
+	 	overflow: hidden;
+}
+/***** BOX LIST close ********/
+
+/* PAGINATION open */
+.box-pagination{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+/* PAGINATION close */
+
 
 /***** BOX NEWSLETTER open ********/
 .box-newsletter{
