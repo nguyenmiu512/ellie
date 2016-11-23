@@ -427,6 +427,11 @@ box-shadow: 10px 10px 30px -5px rgba(189,189,189,1);
 	position: relative;
   top: -120px;
 }
+.content-blog-left .info{
+	position: absolute;
+	bottom: 39px;
+	left: 0px;
+}
 .collect-item .list-item-right .info .title-item,
 .collect-item .list-item-right2 .info .title-item{
 	text-align: center;
@@ -469,7 +474,8 @@ margin: 12px auto;
 	font-weight: 100;
 }
 .collect-item .list-item-right .info .title-item a,
-.collect-item .list-item-right2 .info .title-item a{
+.collect-item .list-item-right2 .info .title-item a,
+.content-blog-left .info .title-item a{
 	font-size: 18px;
 	color:#282828;
 	background-color: #fff;
@@ -477,6 +483,9 @@ margin: 12px auto;
   display: block;
 	font-family: 'Roboto Slab', serif;
 	transition: all .5s ease;
+}
+.content-blog-left .info .title-item a{
+	    padding: 14px 25px !important;
 }
 .collect-item .list-item-left .info .title-item a,
 .collect-item .list-item-left2 .info .title-item a,
@@ -492,7 +501,10 @@ margin: 12px auto;
 .collect-item .list-item-right2 .info .title-item a:hover,
 .collect-item .list-item-left2 .info .title-item a:hover,
 .collect-item .list-item-cover .info .title-item a:hover,
-.box-list .items-in-list .link-title a:hover{
+.box-list .items-in-list .link-title a:hover,
+.title-item-blog .title-item a:hover,
+.img-list-review .title-list-review:hover,
+.content-blog-left .info .title-item a:hover{
 	color:#ffc360;
 }
 
@@ -652,13 +664,22 @@ padding-left: 6px;
 }
 
 
-.short-desc-detail  .info h3{
+.short-desc-detail  .info h3,
+.title-item-blog .title-item,
+.content-blog-right .info .title-item,
+.img-list-review .title-list-review{
 	font-family: 'Roboto Slab', serif;
 	font-size: 18px;
 	color: #282828;
 	display: block;
 	overflow: hidden;
 	margin-top: 0px;
+	line-height: 26px;
+}
+.title-item-blog .title-item a,
+.img-list-review .title-list-review{
+	color: #282828;
+	transition: all .4s ease;
 }
 .short-desc-detail  .info .show-price{
 	font-size: 36px;
@@ -666,14 +687,23 @@ padding-left: 6px;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
-.short-desc-detail  .info .line-title{
+.short-desc-detail  .info .line-title,
+.title-item-blog .line-title,
+.content-blog-left .info .line-title,
+.content-blog-right .info .line-title{
 	display: block;
 	width: 25px;
 	height: 3px;
 	background: #ffae28;
 	margin: 20px 0px;
 }
+.content-blog-left .info .line-title{
 
+}
+.title-item-blog .line-title,
+.content-blog-right .info .line-title{
+	margin:12px 0px !important;
+}
 .short-desc-detail  .info .short-desc-item{
 	color: #888888;;
 	font-family: 'Roboto Slab', serif;
@@ -788,13 +818,15 @@ padding-left: 6px;
 .content-detail{
     padding: 31px 176px;
 }
-.content-detail  .p-detail{
+.content-detail  .p-detail,
+.detail-blog-content .p-detail{
 	font-family: 'Roboto Slab', serif;
 	font-size: 14px;
 	color:#888888;
 	font-weight: 100;
 }
-.content-detail .img-in-content{
+.content-detail .img-in-content,
+.detail-blog-content .img-in-content{
 	text-align: center;
 	margin:20px 0px;
 
@@ -818,7 +850,89 @@ padding-left: 6px;
 }
 /***** BOX DETAIL close ********/
 
+/***** BOX BLOG open ********/
+.content-blog-left{
+	margin-bottom:40px;
+}
+.list-news-blog,
+.list-news-blog ul li{
+	padding-left:0px;
+}
+.list-news-blog ul li{
+	margin: 0px 0px 19px 0px;
+}
+.title-item-blog .time-topic{
+	color:#b3b3b3;
+	font-size: 12px;
+}
+.title-item-blog .time-topic .time-post{
+	border-right: 1px solid #ececec;
+	padding-right:5px;
+}
+.title-item-blog .time-topic .topic{
+	color:#b3b3b3;
+	padding-left:5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.title-item-blog .short-desc{
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color:#333333;
+}
+.img-item-blog a{
+	width: 253px;
+	height: 156px;
+	overflow: hidden;
+	display: block;
+}
+.img-item-blog a img{
+	width: 100%;
+}
+.item-blog .title-item-blog{
+	padding-left:15px;
+}
+.img-cover-blog  a img{
+	width: 100%;
+}
+.feature .title-item{
+	padding: 0px 32px;
+	margin-bottom: 0
+}
+.content-blog-left .feature{
+	position: relative;
+	margin-bottom: 30px;
+}
+.list-info-review{
+	margin:10px 0px;
+}
+.list-info-review,
+.list-info-review .img-list-review{
+	padding-left: 0px;
+}
+.list-info-review .img-list-review .title-list-review{
+	margin:10px 0px;
+	font-size: 14px;
+}
+.img-list-review a{
+	display: block;
+	overflow: hidden;
+	width: 212px;
+}
+.img-list-review a img{
+	width: 100%;
+}
+/***** BOX BLOG close ********/
 
+
+/***** BOX BLOG DETAIL open ********/
+.detail-blog-content{
+	overflow: hidden;
+}
+.detail-blog-content img{
+	width: 100%;
+}
+/***** BOX BLOG DETAIL close ********/
 
 /* PAGINATION open */
 .box-pagination{
