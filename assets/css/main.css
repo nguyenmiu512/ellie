@@ -719,16 +719,21 @@ padding-left: 6px;
 }
 .short-desc-detail .button-add-to-cart a{
 	color: #fff;
-	padding: 9px 47px;
+	padding: 9px 10px;
 	background-color: #ffae28;
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: 100;
 	font-family: 'Roboto Slab', serif;
+	display: block;
+	text-align: center;
 }
 
 
 .check-stock{
 	margin-top: 20px;
+}
+.select-size {
+	margin-bottom:0px !important;
 }
 .select-color,
 .select-size {
@@ -736,12 +741,23 @@ padding-left: 6px;
 	margin: 0px 0px 19px 0px;
 	overflow: hidden;
 }
+.short-desc-detail .control-group{
+	margin-top: 20px;
+}
+.short-desc-detail .control-group select{
+	width: 150px;
+	height: 30px;
+	outline: inherit;
+	margin-left: 22px;
+}
 .select-color h3,
-.select-size h3{
+.select-size h3,
+.short-desc-detail .control-group h3{
 	font-size: 17px;
 	font-family: 'Roboto Slab', serif;
 	display: inline-block;
 	font-weight: 100;
+	margin-top:10px;
 }
 .select-color ul{
 	position: relative;
@@ -799,6 +815,9 @@ padding-left: 6px;
 }
 .button-add-to-cart{
 	width: 100%;
+}
+.bottom-detail{
+	margin-top:30px;
 }
 .info-detail{
 	background-color: #eeeeee;
