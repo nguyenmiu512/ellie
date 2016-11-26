@@ -424,325 +424,55 @@
                   <div class="in-box-breadcrumn">
                     <a href="#">HOME </a>
                     <span class="navigation-pipe">/</span>
-                    <a href="#">NEWBORN</a>
+                    <a href="#">CONTACT</a>
                   </div>
                 </div>
             </div>
           </section>
 
-          <!-- Box list open -->
-          <section class="list-box">
-            <div class="box-list" id="listing">
+          <!-- Box Contact open -->
+          <section class="contact-box">
+            <div class="box-contact" id="contact">
                 <div class="container container-custom">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 filter">
-                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 filter-price">
-                          <div class="control-group">
-                            <select id="select-beast-empty" class="demo-default" data-placeholder="Select a person...">
-                              <option value="selected">Sort by: Newest items</option>
-                              <option value="trending">Trending items</option>
-                              <option value="sales">Best sellers</option>
-                              <option value="rating">Best rated</option>
-                              <option value="price-asc">Price: low to high</option>
-                              <option value="price-desc">Price: high to low</option>
-                            </select>
-                          </div>
-                      </div>
-                      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 count-items">
-                        <div class="count-in">
-                          <p>
-                            Show <span>12</span> items
-                          </p>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 content-contact">
+                      <div class="in-content-contact">
+                        <div class="info">
+                          <h3 class="title-item"><a href="#">SHOWROOM ELLIEVU</a></h3>
+                           <span class="line-title"></span>
+                           <p class="short-desc-item">
+                            187 yen Lac Street, hai Ba Trung Dist, Ha Noi, VN
+                           </p>
+                           <p class="short-desc-item">
+                             (+84) 0871. 096096
+                           </p>
+                           <p class="short-desc-item">
+                            <a class="link-fanpage" href="#"> facebook.com/ellievuboutique</a>
+                           </p>
+                        </div>
+                        <div class="map-contact" id="map">
+                          <script>
+                            function initMap() {
+                              var uluru = {lat: -25.363, lng: 131.044};
+                              var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 4,
+                                center: uluru
+                              });
+                              var marker = new google.maps.Marker({
+                                position: uluru,
+                                map: map
+                              });
+                            }
+                          </script>
+                          <script async defer
+                          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtBVBjkHxsxmaT98LB62grkTWkNVSa1no&callback=initMap">
+                          </script>
                         </div>
                       </div>
-
-                    </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 listing">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list1.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list2.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list7.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list8.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list5.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list3.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list4.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list5.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list6.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list7.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list8.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 items-in-list">
-                          <div class="link-image">
-                            <a class="to-link-image" href="detail.html">
-                              <img src="assets/images/img-list2.jpg"/>
-                            </a>
-                            <div class="hover-list-item">
-                                <div class="in-hover">
-                                  <a class="btn-cart-list" href="#">ADD TO CART</a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="link-title">
-                            <a href="detail.html">
-                              RETRO PRINTS FOR A SOPHISTICATED LOOK
-                            </a>
-                            <span class="line-title"></span>
-                            <p class="price">
-                              <span class="original-price">$99</span>
-                              <span class="line-through">$67</span>
-                            </p>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="box-pagination">
-                      <div class="pagi-count ">
-                            <nav>
-                                <ul class="pagination">
-                                    <li><span class="page-numbers pagenav current">1</span>
-                                    </li>
-                                    <li><a class="page-numbers pagenav" href="/blog/page/2/">2</a>
-                                    </li>
-                                    <li><a class="page-numbers pagenav" href="/blog/page/3/">3</a>
-                                    </li>
-                                    <li class="pagination-next"><a class="next page-numbers pagenav" href="/blog/page/2/">»</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Box list close -->
+        <!-- Box Contact close -->
 
 
 
