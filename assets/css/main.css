@@ -599,15 +599,17 @@ margin: 12px auto;
 	text-align: center;
 	padding: 22px 0px;
 }
+.box-list .items-in-list .link-title .price .sale-price,
+.best-seller .items-in-list .link-title .price .sale-price{
+	color:#ff9f00;
+	font-size: 18px;
+	padding-left: 8px;
+}
+
+
 .box-list .items-in-list .link-title .price .original-price,
 .best-seller .items-in-list .link-title .price .original-price{
 	text-decoration: line-through;
-}
-.box-list .items-in-list .link-title .price .line-through,
-.best-seller .items-in-list .link-title .price .line-through{
-color:#ff9f00;
-font-size: 18px;
-padding-left: 6px;
 }
 .box-list .items-in-list .link-title a,
 .best-seller .items-in-list .link-title a{
@@ -1111,30 +1113,42 @@ font-weight: 100;
 
 
 /* **** ON THE TOP open ********/
+.cd-top .fs1{
 
-.scrollToTop {
-    height: 40px;
-    padding: 10px;
-    text-align: center;
-    color: #035ea8;
-    text-decoration: none;
-    position: fixed;
-    bottom: 185px;
-    right: 86px;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: none;
-    color: #404040;
-    opacity: 0.5;
 }
-.scrollToTop:hover {
-    text-decoration: none;
-    color: #fff;
-    opacity: 1;
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+	bottom: 189px;
+	right: 62px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
 }
-.scrollToTop .fa-long-arrow-up {
-    padding-left: 10px;
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
 }
 /* **** ON THE TOP open ********/
 
