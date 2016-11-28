@@ -1106,8 +1106,76 @@ font-weight: 100;
 	font-weight: 100;
 	margin-left:10px;
 }
+
 /***** BOX NEWSLETTER close ********/
 
+
+/* **** ON THE TOP open ********/
+
+.scrollToTop {
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    color: #035ea8;
+    text-decoration: none;
+    position: fixed;
+    bottom: 185px;
+    right: 86px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: none;
+    color: #404040;
+    opacity: 0.5;
+}
+.scrollToTop:hover {
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+}
+.scrollToTop .fa-long-arrow-up {
+    padding-left: 10px;
+}
+/* **** ON THE TOP open ********/
+
+
+/***** BOX POPUP NEWSLETTER open ********/
+
+#newsletter .modal-content{
+	box-shadow:inherit;
+	border: inherit;
+}
+#newsletter .para-thank h3{
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+#newsletter .para-thank p{
+	letter-spacing: 2px;
+	font-weight: 100;
+	color: #c5c5c5;
+}
+#newsletter .para-thank{
+	text-align: center;
+}
+#newsletter .para-thank form{
+	margin: 3px 87px;
+
+}
+#newsletter .para-thank form input{
+	outline: none;
+	margin: 30px 0px;
+	height: 47px;
+}
+#newsletter .para-thank .btn-popup-subsc{
+	background-color: #ffae28;
+	color: #fff;
+	border-radius: 200px;
+	padding: 10px 20px;
+	display: block;
+	width: 20%;
+	margin: 27px auto 27px;
+}
+/***** BOX POPUP NEWSLETTER close ********/
 
 
 	/***** FOOTER ********/
