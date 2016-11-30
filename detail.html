@@ -391,32 +391,51 @@
       </header>
       <!-- Header close -->
 
+      <!--MODAL NEWSLETTER open-->
+                  <div class="modal fade" id="newsletter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <div class="row">
+                            <div class="col-md-12 para-thank">
+                                <h3>Welcome to EllieVu Baby Boutique</h3>
+                                <p>
+                                  SIGN UP TO RECEIVE UPDATES FROM US <br />
+                                </p>
+                                <form>
+                                  <input type="text" class="form-control" placeholder="Your E-mail" id="your-email">
+                                </form>
+                                <a href="#" class="btn-popup-subsc">Subscribe</a>
+                            </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+      <!--MODAL newsletter close-->
 
-        <!-- Box sidebar open -->
-        <section class="box-fix">
-            <div class="box-sidebar-right">
-              <div class="in-box-sidebar-right">
-                  <ul>
-                      <li>
-                          <a class="ic-social ic-facebook" href="#"></a>
-                      </li>
-                      <li>
-                          <a class="ic-social ic-blogger" href="#"></a>
-                      </li>
-                      <li>
-                          <a class="ic-social ic-slideshare" href="#"></a>
-                      </li>
-                      <li>
-                          <a class="ic-social ic-youtube" href="#"></a>
-                      </li>
-                      <li>
-                          <a class="ic-social ic-google-plus" href="#"></a>
-                      </li>
-                  </ul>
-              </div>
+
+      <!-- Box sidebar open -->
+      <section class="box-fix">
+          <aside class="box-sidebar-right">
+            <div class="in-box-sidebar-right">
+              <ul>
+                <li class="ic-social ic-facebook">
+                    <a  href="#" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i> </a>
+                </li>
+                <li class="ic-social ic-youtube">
+                    <a  href="#" target="_blank"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </a>
+                </li>
+                <li class="ic-social ic-insta">
+                    <a  href="#" target="_blank"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+
+              </ul>
             </div>
-        </section>
-          <!-- Box sidebar open -->
+          </aside>
+      </section>
+        <!-- Box sidebar open -->
 
           <section class="breadcrumb">
             <div class="box-breadcrumb">
@@ -813,7 +832,36 @@ Ha Noi Cap, VN</a>
           });
         });
     </script>
+    <script>
+    jQuery(document).ready(function($){
+    // browser window scroll (in pixels) after which the "back to top" link is shown
+    var offset = 300,
+    //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+    offset_opacity = 1200,
+    //duration of the top scrolling animation (in ms)
+    scroll_top_duration = 700,
+    //grab the "back to top" link
+    $back_to_top = $('.cd-top');
 
+    //hide or show the "back to top" link
+    $(window).scroll(function(){
+    ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+    if( $(this).scrollTop() > offset_opacity ) {
+      $back_to_top.addClass('cd-fade-out');
+    }
+    });
+
+    //smooth scroll to top
+    $back_to_top.on('click', function(event){
+    event.preventDefault();
+    $('body,html').animate({
+      scrollTop: 0 ,
+      }, scroll_top_duration
+    );
+    });
+
+    });
+    </script>
 
 </body>
 

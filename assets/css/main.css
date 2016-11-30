@@ -791,7 +791,10 @@ font-weight: 100;
 
 .short-desc-detail  .info h3,
 .title-item-blog .title-item,
-.content-blog-right .info .title-item{
+.content-blog-right .info .title-item,
+#custom-login .form-login h2,
+#custom-login .login-right h2
+{
 	font-family: 'Roboto Slab', serif;
 	font-size: 18px;
 	color: #282828;
