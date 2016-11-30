@@ -779,13 +779,14 @@ font-weight: 100;
 	padding-top: 30px;
 }
 #bx-pager2{
-    margin: 15px 0px;
+  margin: 15px 67px 15px 0px;
 }
 #bx-pager2  a.active img{
 	border:2px solid #ffc703;
 }
 #bx-pager2  a img{
 	border:2px solid #fff;
+	margin: 2px 0px;
 }
 
 
@@ -810,11 +811,18 @@ font-weight: 100;
 	color: #282828;
 	transition: all .4s ease;
 }
-.short-desc-detail  .info .show-price{
+.short-desc-detail  .info .show-price .sale-price{
 	font-size: 36px;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 600;
 	margin-bottom: 10px;
+}
+.short-desc-detail  .info .show-price .original-price{
+	font-size: 27px;
+	text-decoration: line-through;
+	padding-left: 16px;
+	font-weight: 100;
+	color: #ffae28;
 }
 .short-desc-detail  .info .line-title,
 .title-item-blog .line-title,
@@ -838,13 +846,23 @@ font-weight: 100;
 	font-family: 'Roboto Slab', serif;
 	font-weight: 100;
 }
-.short-desc-detail  .check-stock .link-check-stock{
-	color:#42a324;
+.short-desc-detail  .check-stock .stock{
+
 	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
 	text-decoration: underline;
 	font-size: 17px;
 	font-weight: 100;
+}
+.short-desc-detail  .check-stock  .in-of-stock{
+	color:#42a324;
+}
+.short-desc-detail  .check-stock .out-of-stock{
+	color: #a5a5a5;
+	font-weight: 100;
+}
+.short-desc-detail  .check-stock .out-of-stock .fa-check{
+	padding-right: 10px;
 }
 .short-desc-detail .button-add-to-cart a{
 	color: #fff;
@@ -906,8 +924,9 @@ font-weight: 100;
 	border:1px solid #fff;
 	transition: all .4s ease;
 }
-.select-color ul li .item-detail-color:hover{
-	border:1px solid #888888;
+.select-color ul li .item-detail-color:hover,
+.select-color ul li .item-detail-color.active{
+	border: 4px solid #a0a0a0;
 }
 .select-color ul li .item-red{
 	background-color: #ff5c5c;
@@ -938,7 +957,8 @@ font-weight: 100;
 	font-weight: 100;
 	font-size: 14px;
 }
-.select-size ul li a:hover{
+.select-size ul li a:hover,
+.select-size ul li a.active{
 	color: #ffc360;
 	border: 1px solid #ffc360;
 }
@@ -957,7 +977,7 @@ font-weight: 100;
 	margin: 10px 12px;
 }
 .info-detail ul li a{
-	color: #3d3c3c;
+	  color: #a2a2a2;
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
     font-size: 21px;
@@ -990,11 +1010,20 @@ font-weight: 100;
 	margin-top: 10px;
 }
 .title-detail-best-sell h3 a{
-	color: #3d3c3c;
+	  color: #a2a2a2;
     font-family: 'Roboto Slab', serif;
     font-weight: 100;
     font-size: 21px;
     letter-spacing: 2px;
+}
+
+.detail-in-stock .check-stock .in-of-stock{
+	display: none;
+}
+.button-add-to-cart .disabled{
+	pointer-events: none;
+  cursor: default;
+	background-color: #b7b7b7 !important;
 }
 /***** BOX DETAIL close ********/
 
