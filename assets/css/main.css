@@ -284,7 +284,7 @@ right: -161px;
 	border-right: none;
 	border-left: none;
 	border-bottom: none;
-	background-color: #ececec;
+	background-color: #f3f3f3;
 	padding: 3px 10px;
 }
 /**** SEARCH BOX close ****/
@@ -1087,6 +1087,10 @@ background-color: #f1f1f1;
 /***** BOX DETAIL close ********/
 
 /***** BOX BLOG open ********/
+#blog .box-pagination{
+	overflow: hidden;
+  padding-top: 38px;
+}
 .content-blog-left{
 	margin-bottom:40px;
 }
@@ -1379,7 +1383,7 @@ margin-top: 20px;
 }
 /**** BOX CART close****/
 
-/*** BOX CART CHECK open***/
+/*** BOX CART CHECKOUT open***/
 .box-cart-checkout{
 	padding:10px 0px 100px 0px;
 }
@@ -1398,13 +1402,24 @@ margin-top: 20px;
 	line-height: 35px;
 	padding-right: 10px;
 	}
-.box-cart-checkout .woocommerce .woocommerce-info{
+.box-cart-checkout .woocommerce .row-right .woocommerce-info{
 	border: none;
 	background-color: #f6f6f6;
 	color: #999;
 	font-size: 14px;
 	padding: 30px 30px 30px 80px !important;
 	margin: 0 0 2em!important;
+}
+.box-cart-checkout .woocommerce .row-left .woocommerce-info{
+	padding: 67px 46px 0px 0px;
+	border: none;
+	color: #999;
+	font-size: 14px;
+	padding: 30px 30px 30px 0px !important;
+	border-bottom: 1px solid #ececec;
+}
+.box-cart-checkout .woocommerce .row-left form.login{
+	padding-top: 30px;
 }
 .box-cart-checkout .woocommerce .woocommerce-info .showlogin,
 .box-cart-checkout .woocommerce .woocommerce-info .showcoupon{
@@ -1502,14 +1517,17 @@ margin-top: 20px;
 .box-cart-checkout .woocommerce .woocommerce-billing-fields h3,
 .box-cart-checkout .woocommerce .order-review h3{
 	margin: 30px 0px;
+	color: #ea9f22;
+
 }
 .box-cart-checkout .woocommerce .form-row .checkbox{}
-.box-cart-checkout .woocommerce form .form-row textarea{
+.box-cart-checkout .woocommerce .row-left form .form-row textarea{
 	height: 4em;
 	line-height: 1.5;
 	display: block;
 }
-.box-cart-checkout .woocommerce form .form-row .input-text	{
+.box-cart-checkout .woocommerce form .form-row .input-text,
+.box-cart-checkout .woocommerce .row-left #order_comments_field .input-text	{
 	font-size: 14px;
   color: #333;
   font-weight: 500;
@@ -1519,7 +1537,7 @@ margin-top: 20px;
 	width: 100%;
 	outline: inherit;
 }
-.box-cart-checkout .woocommerce form #order_comments_field .input-text{
+.box-cart-checkout .woocommerce .row-left #order_comments_field .input-text{
 	min-height: 100px;
 }
 .box-cart-checkout .woocommerce-checkout-review-order{
@@ -1547,7 +1565,12 @@ margin-top: 20px;
 	margin-top:20px;
 	padding:5px 0px 10px 0px;
 }
-/*** BOX CART CHECK close***/
+.box-cart-checkout .woocommerce #payment .form-row .button{
+	width: 100%;
+	color: #fff;
+	background-color: #ffae28;
+}
+/*** BOX CART CHECKOUT close***/
 
 /***** BOX BLOG DETAIL open ********/
 .detail-blog-content{
@@ -1625,11 +1648,13 @@ margin-top: 20px;
 	margin: 0 auto;
 	text-align: center;
 }
-.page-numbers>li{
+.page-numbers>li,
+#blog .pagination ul li{
 	display: inline-block;
 	margin: 24px auto;
 }
-.page-numbers>li>a, .page-numbers>li>span{
+.page-numbers>li>a, .page-numbers>li>span,
+#blog .pagination ul li span{
 	color:#000000;
 	margin:0px 5px;
 	border-radius: 50% !important;
