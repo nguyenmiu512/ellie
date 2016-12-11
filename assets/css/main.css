@@ -1562,12 +1562,14 @@ margin-top: 20px;
   font-weight: 500;
   min-width: inherit;
   border: 1px solid #ccc;
-	padding: 10px;
 	width: 100%;
 	outline: inherit;
 }
 .box-cart-checkout .woocommerce .row-left #order_comments_field .input-text{
 	min-height: 100px;
+}
+.box-cart-checkout .woocommerce .checkout_coupon{
+	margin-top:25px;
 }
 .box-cart-checkout .woocommerce-checkout-review-order{
 	background-color: #f7f7f7;
