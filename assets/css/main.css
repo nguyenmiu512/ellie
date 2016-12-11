@@ -1522,12 +1522,12 @@ margin-top: 20px;
 .box-cart-checkout .woocommerce .form-row .button,
 .box-cart .shop_table tbody .actions .coupon .button,
 .box-cart .shop_table tbody .actions .button{
-	background-color: #000;
-  outline: inherit;
-  border: inherit;
-  color: #ececec;
+	background-color: #e6e6e6;
+	outline: inherit;
+	border: inherit;
+	color: #484848;
 	padding: 16px 50px;
-  margin-top: 20px;
+	margin-top: 20px;
 	display: block;
 }
 .box-cart .shop_table tbody .actions .coupon .button,
