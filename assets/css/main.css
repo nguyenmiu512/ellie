@@ -1192,12 +1192,25 @@ background-color: #f1f1f1;
 .box-cart .shop_table th{
 	color:#999;
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 500;
 	padding: 10px 0px;
 }
 .box-cart .shop_table tbody{
 	border-top: 1px solid #ececec;
 	margin-top:20px;
+}
+.box-cart .shop_table tbody tr.cart-subtotal{
+	border-bottom: 1px solid #ececec;
+}
+.box-cart .shop_table tbody .actions .coupon label{
+	display: none;
+}
+
+.box-cart .shop_table tbody .actions .coupon{
+	float:left;
+}
+.box-cart .shop_table tbody .actions .button{
+	float: right;
 }
 .coupon-col .coupon{
 	margin: 29px 0px;
@@ -1210,13 +1223,13 @@ background-color: #f1f1f1;
   font-size: 18px;
 }
 
-.coupon-col .coupon .input-text{
-	margin: 0px 0px 25px 0px;
-	height: 45px;
+.coupon-col .coupon .input-text,
+.box-cart .shop_table tbody .actions .coupon .input-text{
+	margin: 25px 0px;
+	height: 54px;
 	padding: 5px 20px;
 	outline: inherit;
 	border: 1px solid #ececec;
-	width: 100%;
 	font-weight: 100;
 	text-align: center;
 }
@@ -1255,7 +1268,13 @@ height: 45px;
 	padding: 29px 5px 20px 5px;
 }
 .cart-collaterals{
-	margin-top: 25px;
+	margin-top: 6px;
+	border-top: 1px solid #ececec;
+}
+.cart-collaterals .cart_totals{
+	float: right;
+	width: 48%;
+	padding:0px;
 }
 .shop_table .cart_item .product-price,
 .shop_table .cart_item .product-subtotal{
@@ -1270,7 +1289,7 @@ height: 45px;
 	margin-top: 0;
 	line-height: 26px;
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 500;
 }
 .cart_item .product-thumbnail{
 	padding:20px 0px;
@@ -1384,6 +1403,9 @@ margin-top: 20px;
 /**** BOX CART close****/
 
 /*** BOX CART CHECKOUT open***/
+.box-cart {
+	padding-bottom: 50px;
+}
 .box-cart-checkout{
 	padding:10px 0px 100px 0px;
 }
@@ -1497,14 +1519,20 @@ margin-top: 20px;
 .box-cart-checkout .woocommerce .create-account #createaccount{
 	opacity: 0;
 }
-.box-cart-checkout .woocommerce .form-row .button{
+.box-cart-checkout .woocommerce .form-row .button,
+.box-cart .shop_table tbody .actions .coupon .button,
+.box-cart .shop_table tbody .actions .button{
 	background-color: #000;
   outline: inherit;
   border: inherit;
   color: #ececec;
-	padding: 17px 50px 17px 50px;
+	padding: 16px 50px;
   margin-top: 20px;
 	display: block;
+}
+.box-cart .shop_table tbody .actions .coupon .button,
+.box-cart .shop_table tbody .actions .button{
+	margin: 25px 0px 0px 10px;
 }
 .box-cart-checkout .woocommerce form .form-row label{
 	color: #999;
@@ -1517,7 +1545,9 @@ margin-top: 20px;
 .box-cart-checkout .woocommerce .order-review h3{
 	margin: 30px 0px;
 	color: #ea9f22;
-
+}
+.box-cart-checkout .woocommerce .row-left{
+	padding-right: 38px;
 }
 .box-cart-checkout .woocommerce .form-row .checkbox{}
 .box-cart-checkout .woocommerce .row-left form .form-row textarea{

@@ -526,26 +526,21 @@
                                     <td class="product-subtotal" data-title="Total"> <span class="woocommerce-Price-amount amount">1,100,000.00&nbsp;<span class="woocommerce-Price-currencySymbol">₫</span></span>
                                     </td>
                                 </tr>
+                                <tr>
+                                  <td colspan="6" class="actions">
+                                      <div class="coupon">
+                                          <label for="coupon_code">Coupon:</label>
+                                          <input type="text" name="coupon_code" class="input-text" id="coupon_code" placeholder="Coupon code">
+                                          <input type="submit" class="button" name="apply_coupon" value="Apply Coupon"> </div>
+                                      <input type="submit" class="button" name="update_cart" value="Update Cart">
+                                      <input type="hidden" id="_wpnonce" name="_wpnonce" value="b71c4c4a69">
+                                      <input type="hidden" name="_wp_http_referer" value="/site/cart/"> </td>
+                              </tr>
                             </tbody>
                         </table>
                     </form>
-                    <div class="cart-collaterals">
-                      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 coupon-col">
-                        <div class="coupon">
-                          <input type="text" name="coupon_code" class="input-text" id="coupon_code" placeholder="Coupon code">
-                          <input type="submit" class="button" name="apply_coupon" value="Apply Coupon">
-                        </form>
-                        </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 update-cart-col">
-                          <form>
-
-                            <input type="submit" class="button" name="update_cart" value="Update Cart" disabled="">
-                            <input type="hidden" id="_wpnonce" name="_wpnonce" value="73bfd06909">
-                            <input type="hidden" name="_wp_http_referer" value="/site/cart/">
-                        </div>
-
-                        <div class="cart_totals col-lg-6 col-md-6 col-sm-6 col-xs-4 ">
+                    <div class="cart-collaterals">                                            
+                        <div class="cart_totals col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
                           <div class="in-cart-totals">
                             <h2>Cart Totals</h2>
                             <table cellspacing="0" class="shop_table shop_table_responsive">
