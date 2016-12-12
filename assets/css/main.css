@@ -1189,12 +1189,13 @@ background-color: #f1f1f1;
 .box-cart .shop_table{
 	width: 100%;
 	border: inherit !important;
+	margin-bottom: 0px !important;
 }
 .box-cart .shop_table th{
 	color:#999;
 	text-transform: uppercase;
-	font-weight: 500;
 	padding: 10px 0px;
+	font-weight: 400 !important;
 }
 .box-cart .shop_table tbody{
 	border-top: 1px solid #ececec;
@@ -1338,6 +1339,9 @@ dl.variation dt{
 	display: inline-block;
 	float: left;
 }
+dl.variation dt{
+	float: left;
+}
 .variation .variation-Color{
 	display: inline-block;
 }
@@ -1345,9 +1349,9 @@ dl.variation dt{
 .variation .variation-Size p{
 	padding-left:10px
 }
-.variation .variation-Size{
-	display: inline-block;
-	clear:both;
+.variation dt.variation-Color,
+.variation dt.variation-Size{
+	clear:left;
 }
 
 .cart_item .product-quantity .quantity input{
@@ -1392,7 +1396,7 @@ line-height: 51px;
 background-color: #ffae28 !important;
 transition: all 0.5s;
 color: #fff;
-font-weight: normal;
+font-weight: 600 !important;
 letter-spacing: 2px;
 font-size: 14px !important;
 text-align: center;
