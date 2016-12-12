@@ -1225,13 +1225,14 @@ background-color: #f1f1f1;
 
 .coupon-col .coupon .input-text,
 .box-cart .shop_table tbody .actions .coupon .input-text{
-	margin: 25px 0px;
+	margin: 25px 0px !important;
 	height: 54px;
-	padding: 5px 20px;
+	padding: 5px 20px !important;
 	outline: inherit;
-	border: 1px solid #ececec;
+	border: 1px solid #ececec !important;
 	font-weight: 100;
 	text-align: center;
+	width: auto !important;
 }
 .coupon-col .coupon .button,
 .update-cart-col .button{
@@ -1274,7 +1275,9 @@ height: 45px;
 .cart-collaterals .cart_totals{
 	float: right;
 	width: 48%;
-	padding:0px;
+	background-color: #f7f7f7;
+	padding: 7px 41px;
+	margin: 31px 0px;
 }
 .shop_table .cart_item .product-price,
 .shop_table .cart_item .product-subtotal{
@@ -1303,7 +1306,7 @@ height: 45px;
 	overflow: hidden;
 }
 .cart_item .product-thumbnail img{
-	width: 100%;
+	width: 100% !important;
 }
 dl.variation{
 	margin-top:10px;
@@ -1366,24 +1369,22 @@ height: 20px;
 line-height: 22px;
 }
 
-.in-cart-totals {
-	background-color: #f7f7f7;
-	padding: 7px 41px;
-	margin: 31px 0px;
+.cart_totals {
+
 }
 .cart_totals .wc-proceed-to-checkout{
 	margin: 30px 0px;
 	border-top: 1px solid #9c9c9c;
 	padding: 10px 0px;
 }
-.in-cart-totals h2{
+.cart_totals h2{
 	margin: 24px 0px 25px 0px;
 	text-align: center;
 }
-.in-cart-totals .shop_table td{
+.cart_totals .shop_table td{
 	text-align: right;
 }
-.in-cart-totals .wc-proceed-to-checkout .checkout-button{
+.cart_totals .wc-proceed-to-checkout .checkout-button{
 	padding: 0 40px;
 height: 50px;
 line-height: 51px;
