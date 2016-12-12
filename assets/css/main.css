@@ -1188,6 +1188,7 @@ background-color: #f1f1f1;
 /**** BOX CART open****/
 .box-cart .shop_table{
 	width: 100%;
+	border: inherit !important;
 }
 .box-cart .shop_table th{
 	color:#999;
@@ -1266,7 +1267,7 @@ height: 45px;
 }
 .shop_table .cart_item td{
 	vertical-align: top;
-	padding: 29px 5px 20px 5px;
+	padding: 29px 5px 20px 5px !important;
 }
 .cart-collaterals{
 	margin-top: 6px;
@@ -1385,15 +1386,15 @@ line-height: 22px;
 	text-align: right;
 }
 .cart_totals .wc-proceed-to-checkout .checkout-button{
-	padding: 0 40px;
+	padding: 0 40px !important;
 height: 50px;
 line-height: 51px;
-background-color: #ffae28;
+background-color: #ffae28 !important;
 transition: all 0.5s;
 color: #fff;
-font-weight: 100;
+font-weight: normal;
 letter-spacing: 2px;
-font-size: 14px;
+font-size: 14px !important;
 text-align: center;
 text-transform: uppercase;
 width: 100%;
@@ -1525,11 +1526,14 @@ margin-top: 20px;
 .box-cart .shop_table tbody .actions .button{
 	background-color: #e6e6e6;
 	outline: inherit;
+	font-weight: normal;
 	border: inherit;
 	color: #484848;
 	padding: 16px 50px;
 	margin-top: 20px;
 	display: block;
+	line-height: inherit;
+	border-radius: inherit;
 }
 .box-cart .shop_table tbody .actions .coupon .button,
 .box-cart .shop_table tbody .actions .button{
