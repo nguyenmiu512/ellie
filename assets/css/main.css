@@ -1213,6 +1213,11 @@ background-color: #f1f1f1;
 }
 .box-cart .shop_table tbody .actions .button{
 	float: right;
+	background-color: #f7f7f7;
+	outline: inherit;
+	border: inherit;
+	padding: 17px 15px;
+	margin: 26px 10px;
 }
 .coupon-col .coupon{
 	margin: 29px 0px;
@@ -1522,9 +1527,10 @@ padding-left: 10px;
 }
 .box-cart-checkout #order_review  table.shop_table{
 	width: 100%;
+	border:inherit !important;
 }
 .box-cart-checkout #order_review  table.shop_table tfoot  tr.cart-subtotal th{
-padding:10px 0px;
+padding: 25px 0px;
 }
 .box-cart-checkout #order_review #payment{
 	margin: 29px 0px;
