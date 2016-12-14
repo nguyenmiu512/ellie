@@ -1527,7 +1527,7 @@ padding-left: 10px;
 }
 .box-cart-checkout #order_review  table.shop_table{
 	width: 100%;
-	border:inherit !important;
+	border:none !important;
 }
 .box-cart-checkout #order_review  table.shop_table tfoot  tr.cart-subtotal th{
 padding: 25px 0px;
