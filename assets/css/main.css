@@ -1415,7 +1415,8 @@ margin-top: 20px;
 
 /*** BOX CART CHECKOUT open***/
 .checkout #content  .box-cart-checkout form.checkout_coupon{
-	border:inherit !important;
+	padding:0px 13px !important;
+	margin:0px !important;
 }
 .checkout #content  .box-cart-checkout .form-row .button{
 	outline: inherit;
@@ -1423,8 +1424,17 @@ margin-top: 20px;
 	padding: 17px 15px;
 	background-color: #f7f7f7;
 }
+.checkout #content  .woocommerce form .form-row-last, .woocommerce-page form .form-row-last{
+	float: left;
+}
+.woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last{
+	width: auto;
+	float: inherit;
+}
+.checkout #content  .box-cart-checkout .login{
+	padding: 32px 43px;
+}
 .checkout #content  .box-cart-checkout .form-row {
-	float:left;
 }
 .checkout #content .woocommerce-info{
 	border-top-color: #ffae28 !important;
@@ -1434,11 +1444,13 @@ margin-top: 20px;
 .checkout #content .woocommerce-info:before{
 	color: #3c3c3c !important;
 }
-.checkout #content .woocommerce-info .showlogin{
+.checkout #content .woocommerce-info .showlogin,
+.checkout #content .woocommerce-info .showcoupon{
 	color: #000 !important;
 }
-.box-cart-checkout .woocommerce form .form-row .input-text{
-
+.checkout #content .woocommerce-info form .form-row .input-text{
+	height: 45px;
+	padding: 15px 25px;
 }
 .box-cart-checkout form .form-row .input-text,
 .box-cart-checkout form .login .form-row .input-text
