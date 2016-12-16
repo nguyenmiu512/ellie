@@ -550,7 +550,7 @@ margin: 12px auto;
 /***** BOX LIST open ********/
 .breadcrumb{
 	background: url('../images/cover-breadcrumb.jpg') no-repeat 0 0;
-	height: 129px;
+	height: 96px;
 	background-size: contain;
 	border-radius: inherit !important;
 	margin-bottom: 0px !important;
@@ -1414,10 +1414,35 @@ margin-top: 20px;
 /**** BOX CART close****/
 
 /*** BOX CART CHECKOUT open***/
+.checkout #content  .box-cart-checkout form.checkout_coupon{
+	border:inherit !important;
+}
+.checkout #content  .box-cart-checkout .form-row .button{
+	outline: inherit;
+	border: inherit;
+	padding: 17px 15px;
+	background-color: #f7f7f7;
+}
+.checkout #content  .box-cart-checkout .form-row {
+	float:left;
+}
+.checkout #content .woocommerce-info{
+	border-top-color: #ffae28 !important;
+	background-color: #f9f9f9 !important;
+	color: #999 !important;
+}
+.checkout #content .woocommerce-info:before{
+	color: #3c3c3c !important;
+}
+.checkout #content .woocommerce-info .showlogin{
+	color: #000 !important;
+}
 .box-cart-checkout .woocommerce form .form-row .input-text{
 
 }
-.box-cart-checkout form .form-row .input-text{
+.box-cart-checkout form .form-row .input-text,
+.box-cart-checkout form .login .form-row .input-text
+{
 	padding: 15px 25px;
 }
 .box-cart-checkout .woocommerce-shipping-fields #order_comments_field .input-text {
