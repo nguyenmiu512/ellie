@@ -1333,7 +1333,7 @@ dl.variation{
 .variation dt{
 	padding-left: 20px;
 	float: left;
-	©font-size: 14px;
+	font-size: 14px;
 	color: #000;
 	font-weight: 400;
 	margin-right: 5px;
@@ -1428,7 +1428,7 @@ margin-top: 20px;
 	font-weight: 100;
 }
 .checkout #content  .box-cart-checkout .form-row .button{
-	
+	©
 }
 .checkout #content  .woocommerce form .form-row-last, .woocommerce-page form .form-row-last{
 	float: left;
