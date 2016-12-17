@@ -1415,7 +1415,7 @@ margin-top: 20px;
 
 /*** BOX CART CHECKOUT open***/
 .checkout #content  .box-cart-checkout form.checkout_coupon{
-	padding:0px 13px !important;
+	padding:33px 13px !important;
 	margin:0px !important;
 }
 .checkout #content  .box-cart-checkout .form-row .button{
