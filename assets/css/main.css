@@ -1333,7 +1333,7 @@ dl.variation{
 .variation dt{
 	padding-left: 20px;
 	float: left;
-	font-size: 14px;
+	©font-size: 14px;
 	color: #000;
 	font-weight: 400;
 	margin-right: 5px;
@@ -1415,14 +1415,20 @@ margin-top: 20px;
 
 /*** BOX CART CHECKOUT open***/
 .checkout #content  .box-cart-checkout form.checkout_coupon{
-	padding:33px 13px !important;
-	margin:0px !important;
+	padding: 33px 13px!important;
+	margin: 0px 15px!important;
+	background-color: #f7f7f7;
+}
+.checkout #content .login .form-row .input-text{
+	width: 50%;
 }
 .checkout #content  .box-cart-checkout .form-row .button{
 	outline: inherit;
 	border: inherit;
 	padding: 17px 15px;
-	background-color: #f7f7f7;
+	background-color: #ffae28;
+	color: #fff1da;
+	font-weight: 100;
 }
 .checkout #content  .woocommerce form .form-row-last, .woocommerce-page form .form-row-last{
 	float: left;
