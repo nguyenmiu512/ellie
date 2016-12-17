@@ -1495,7 +1495,10 @@
 	.checkout #content .box-cart-checkout .row form.woocommerce-checkout {
 	    padding: 15px !important;
 	}
-.checkout #content .box-cart-checkout form.login .form-row input.input-text{
+.checkout #content form.login{
+	padding: 30px !important;
+}
+.checkout #content form.login .form-row input.input-text{
 	width: 50%;
 	height: 45px;
 }
