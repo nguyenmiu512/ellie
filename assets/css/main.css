@@ -1414,10 +1414,14 @@ margin-top: 20px;
 /**** BOX CART close****/
 
 /*** BOX CART CHECKOUT open***/
+.checkout #content  .box-cart-checkout .row .checkout woocommerce-checkout{
+	padding:15px 0px;
+}
 .checkout #content  .box-cart-checkout form.checkout_coupon{
 	padding: 33px 13px!important;
 	margin: 0px 15px!important;
 	background-color: #f7f7f7;
+	border:inherit !important;
 }
 .checkout #content  .box-cart-checkout .form-row .button{
 	outline: inherit;
@@ -1445,6 +1449,7 @@ margin-top: 20px;
 	border-top-color: #ffae28 !important;
 	background-color: #f9f9f9 !important;
 	color: #999 !important;
+	margin-bottom: 0px !important;
 }
 .checkout #content .woocommerce-info:before{
 	color: #3c3c3c !important;
