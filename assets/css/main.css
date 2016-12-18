@@ -1130,7 +1130,9 @@
 	    overflow: hidden;
 	    padding-top: 38px;
 	}
-
+	.blog-box{
+		padding-top:40px;
+	}
 	.content-blog-left {
 	    margin-bottom: 40px;
 	}
