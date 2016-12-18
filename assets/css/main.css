@@ -1153,7 +1153,8 @@
 	    overflow: hidden;
 	    padding-top: 38px;
 	}
-	.blog-box,.box-list{
+	.blog-box,.box-list,
+	.box-cart{
 		padding-top:40px;
 	}
 	.content-blog-left {
@@ -1266,6 +1267,12 @@
 	/**** BOX CONTACT close ****/
 	/**** BOX CART open****/
 
+	.woocommerce td.product-name dl.variation dt{
+		padding: 0px 0px 0px 22px;
+	}
+	.woocommerce td.product-name dl.variation dd{
+		margin-bottom: 0px;
+	}
 	.box-cart .shop_table {
 	    width: 100%;
 	    border: inherit !important;
