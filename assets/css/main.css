@@ -770,7 +770,9 @@
 	    padding: 0px 0px 0px 3px;
 	}
 
-	.short-desc-detail .info h3, .title-item-blog .title-item, .content-blog-right .info .title-item, #custom-login .form-login h2, #custom-login .login-right h2 {
+	.short-desc-detail .info h3,
+	.short-desc-detail .info h1.product_title ,
+	.title-item-blog .title-item, .content-blog-right .info .title-item, #custom-login .form-login h2, #custom-login .login-right h2 {
 	    font-family: 'Roboto Slab', serif;
 	    font-size: 18px;
 	    color: #282828;
@@ -817,9 +819,9 @@
 	    margin: 12px 0px !important;
 	}
 
-	.short-desc-detail .info .short-desc-item {
+	.short-desc-detail .info .short-desc-item,
+	.short-desc-detail .info p {
 	    color: #888888;
-	    ;
 	    font-family: 'Roboto Slab', serif;
 	    font-weight: 100;
 	}
@@ -1497,6 +1499,9 @@
 	}
 .checkout #content form.login{
 	padding: 30px !important;
+}
+.checkout #content form.login .form-row .inline input{
+
 }
 .checkout #content form.login .form-row input.input-text{
 	width: 50%;
