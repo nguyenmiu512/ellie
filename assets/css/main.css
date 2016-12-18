@@ -115,6 +115,9 @@
 	    border-top: 3px solid #ffae28;
 	    border-bottom: 1px solid #ececec;
 	}
+	.wpml-ls-legacy-list-horizontal a{
+			padding: 3px 10px;
+	}
 
 	#home .box-top .box-top-left {
 	    padding: 0px;
