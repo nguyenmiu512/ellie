@@ -513,6 +513,10 @@
 			font-size: 18px;
 			padding-left: 8px;
 }
+.info .price ins{
+	padding-left: 10px;
+  font-size: 23px !important;
+}
 	.collect-item .list-item-left .info .short-desc-item, .collect-item .list-item-left2 .info .short-desc-item, .collect-item .list-item-cover .info .short-desc-item, .in-content-contact .info .short-desc-item, .in-content-contact .info .short-desc-item .link-fanpage {
 	    text-align: center;
 	    color: #a7a7a7;
@@ -769,7 +773,7 @@
 	    display: inline-block;
 	    max-width: 100%;
 	    width: 91px;
-	    margin: 0px auto;
+	    margin: 2px auto;
 	    text-align: center;
 	}
 
@@ -1129,6 +1133,15 @@
 
 	.top-detail .short-desc-detail {
 	    padding-left: 0px;
+	}
+	#content .woocommerce-message a.wc-forward{
+		color: #fff;
+		font-weight: 100;
+		background-color: #62b74d;
+	}
+	#content .woocommerce-message{
+		border-top-color: #fff;
+		margin-top: 20px !important;
 	}
 	/***** BOX DETAIL close ********/
 	/***** BOX BLOG open ********/
