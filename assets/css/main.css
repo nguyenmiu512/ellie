@@ -84,7 +84,9 @@
 	    -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	    margin-top: 13px;
 	}
-
+.wpml-ls-legacy-list-horizontal{
+	padding:0px !important;
+}
 	header .header-top .block-search {
 	    display: none;
 	}
@@ -506,7 +508,11 @@
 	    background: #ffae28;
 	    margin: 12px auto;
 	}
-
+.box-list .items-in-list .link-title .price ins span{
+			color: #ff9f00;
+			font-size: 18px;
+			padding-left: 8px;
+}
 	.collect-item .list-item-left .info .short-desc-item, .collect-item .list-item-left2 .info .short-desc-item, .collect-item .list-item-cover .info .short-desc-item, .in-content-contact .info .short-desc-item, .in-content-contact .info .short-desc-item .link-fanpage {
 	    text-align: center;
 	    color: #a7a7a7;
@@ -669,8 +675,9 @@
 
 	.filter-price {
 	    display: inline-block;
-	    margin-bottom: 20px;
+	    margin-bottom: 30px;
 	    width: 22%;
+			padding-left: 0px;
 	}
 
 	.filter-price .control-group {
@@ -1130,7 +1137,7 @@
 	    overflow: hidden;
 	    padding-top: 38px;
 	}
-	.blog-box{
+	.blog-box,.box-list{
 		padding-top:40px;
 	}
 	.content-blog-left {
