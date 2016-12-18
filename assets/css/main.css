@@ -508,7 +508,7 @@
 	    background: #ffae28;
 	    margin: 12px auto;
 	}
-.box-list .items-in-list .link-title .price ins span{
+.box-list .items-in-list .link-title .price ins{
 			color: #ff9f00;
 			font-size: 18px;
 			padding-left: 8px;
