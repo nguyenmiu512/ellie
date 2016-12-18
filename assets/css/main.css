@@ -1530,7 +1530,10 @@
 	    padding: 15px !important;
 	}
 .checkout #content form.login{
-	padding: 30px !important;
+	padding: 30px!important;
+  border: none !important;
+  background-color: #f9f9f9 !important;
+  margin-top: 0px;
 }
 .checkout #content form.login .form-row .inline input{
 
@@ -1538,6 +1541,10 @@
 .checkout #content form.login .form-row input.input-text{
 	width: 50%;
 	height: 45px;
+	padding: 0px 10px;
+	outline: none;
+	border: 1px solid #ececec;
+	background-color: #fff !important;
 }
 .checkout #content .box-cart-checkout form.login{
 	padding:30px;
