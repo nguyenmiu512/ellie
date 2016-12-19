@@ -164,24 +164,20 @@
 	    min-height: 0px;
 	    padding-right: 0px;
 	}
-
 	.navbar {
 	    border-radius: inherit;
 	    border: inherit;
 	}
-
 	.topbar .nav-logo {
 	    margin-top: 26px;
 	    margin-bottom: 10px;
 	}
-
 	.topbar .nav-logo a.link-nav-logo {
 	    background: url('../images/logo-ellievu.png') no-repeat center center;
 	    width: 154px;
 	    height: 71px;
 	    display: block;
 	}
-
 	.nav-left ul li a, .nav-right ul li a {
 	    color: #737373;
 	    font-family: 'Roboto Slab', serif;
@@ -189,28 +185,24 @@
 	    letter-spacing: 2px;
 	    text-transform: uppercase;
 	}
-
 	.nav-left, .nav-right {
 	    padding-top: 49px;
 	}
-
 	.nav-left ul .li-main {
 	    margin-left: 16px;
 	}
-
 	.nav-right ul li {
 	    margin-left: 0px;
 	}
-
 	.nav-left .navbar-custom {
 	    float: right;
 	}
-
 	.nav-left ul li a .fa-angle-down, .nav-right ul li a .fa-angle-down {
 	    padding-left: 8px;
 	}
-	/**** DROPDOWN open ****/
 
+
+	/**** DROPDOWN open ****/
 	.nav-left ul li .drop-down {
 	    position: absolute;
 	    padding: 0;
@@ -227,7 +219,6 @@
 	    -transition: opacity 0.2s;
 	    z-index: 99;
 	}
-
 	.nav-right ul li .drop-down {
 	    position: absolute;
 	    padding: 0;
@@ -244,16 +235,15 @@
 	    -transition: opacity 0.2s;
 	    z-index: 99;
 	}
-
 	.nav-left ul li:hover .drop-down, .nav-right ul li:hover .drop-down {
 	    display: block;
 	    background-color: #fff;
 	    color: #010101;
 	    width: 777px;
-	    height: 218px;
-	    opacity: 0.9;
+			height: 190px;
+			opacity: 0.9;
+			padding: 12px 0px;
 	}
-
 	.nav-left ul li:hover .drop-down a, .nav-right ul li:hover .drop-down a {
 	    color: #010101;
 	    font-weight: 600;
