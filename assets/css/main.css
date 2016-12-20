@@ -109,7 +109,16 @@
 	    display: inline-block;
 	    padding: 8px 0px 8px 8px;
 	}
-
+	#home .box-top .widget_wpglobus .dropdown-styled li:hover{
+		background-color:#fff !important;
+	}
+	#home .box-top .widget_wpglobus .dropdown-styled li ul{
+		top: 47px;
+		left: 0px;
+	}
+	#home .box-top .widget_wpglobus .dropdown-styled li:hover ul li a.wpglobus-selector-link {
+		padding: 13px 13px !important;
+	}
 	#home .box-top {
 	    background-color: #fff;
 	    border-top: 3px solid #ffae28;
@@ -1268,7 +1277,10 @@
 	    border: inherit !important;
 	    margin-bottom: 0px !important;
 	}
-
+	.box-cart .woocommerce-cart .cart-empty,
+	.box-cart .woocommerce-cart .return-to-shop{
+		text-align: center;
+	}
 	.box-cart .shop_table th {
 	    color: #999;
 	    text-transform: uppercase;
