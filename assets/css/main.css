@@ -1768,8 +1768,15 @@
 
 	.login-row .login-left, .login-row .login-right {
 	    padding: 30px 50px;
-	}
-
+			}
+	.login-row .login-left{
+			background-color: #f7f7f7;
+		}
+		.login-row .login-left .form-login .line-title,
+		.login-row .login-right .form-login .line-title{
+			text-align: center;
+			margin: 20px auto;
+		}
 	.login-row .login-left form .input-text, .login-row .login-right form .input-text {
 	    width: 100%;
 	    margin: 10px 0px;
@@ -1808,8 +1815,9 @@
 	}
 
 	.login-form {
-	    padding: 10px 100px;
-	    text-align: center;
+		padding: 50px 100px;
+		text-align: center;
+		overflow: hidden;
 	}
 
 	.lost-pwd .form-row label {
