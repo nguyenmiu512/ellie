@@ -199,7 +199,7 @@
 	    text-transform: uppercase;
 	}
 	.nav-left, .nav-right {
-	    padding-top: 49px;
+	    padding-top: 34px;
 	}
 	.nav-left ul .li-main {
 	    margin-left: 16px;
@@ -1900,6 +1900,30 @@
 	    letter-spacing: 2px;
 	}
 	/***** BOX NEWSLETTER close ********/
+
+	/**** ABOUT US open ****/
+	.about-us-box{
+		overflow: hidden;
+	}
+	.about-us-box .cover-about{
+		padding:0px;
+	}
+	.about-us-box .cover-about img{
+		width: 100%;
+	}
+	.about-us-box .content-about{
+		overflow: hidden;
+		margin: 0 auto;
+		background-color: #fff;
+		padding-bottom: 107px;
+	}
+	.about-us-box .content-about .text-about{
+		padding: 20px 281px 10px 281px;
+		line-height: 28px;
+	}
+	/**** ABOUT US close ****/
+
+
 	/* **** ON THE TOP open ********/
 
 	.cd-top .fs1 {
