@@ -1281,6 +1281,9 @@
 	    border: inherit !important;
 	    margin-bottom: 0px !important;
 	}
+	.box-cart .woocommerce-cart{
+		padding:100px 0px;
+	}
 	.box-cart .woocommerce-cart .cart-empty,
 	.box-cart .woocommerce-cart .return-to-shop{
 		text-align: center;
