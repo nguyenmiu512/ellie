@@ -61,15 +61,10 @@
 	}
 	/***** HEADER TOP ********/
 
-	body {}
-
 	header {
 	    z-index: 999;
 	    width: 100%;
 	}
-
-	.slider {}
-
 	.menu-mobile, .slider-mobile {
 	    display: none;
 	}
@@ -85,7 +80,7 @@
 	    margin-top: 13px;
 	}
 .wpml-ls-legacy-list-horizontal{
-	padding:0px !important;
+	padding:0 !important;
 }
 	header .header-top .block-search {
 	    display: none;
@@ -122,7 +117,7 @@
 		background-color: inherit !important;
 	}
 	#home .box-top .widget_wpglobus .dropdown-styled ul{
-		margin:0px;
+		margin:0;
 	}
 	#home .box-top .widget_wpglobus .dropdown-styled li:hover ul li a.wpglobus-selector-link {
 		padding: 4px 13px 0px 0px!important;
@@ -138,7 +133,7 @@
 	}
 
 	#home .box-top .box-top-left {
-	    padding: 0px;
+	    padding: 0;
 	}
 
 	#home .box-top-left ul li {
@@ -1919,7 +1914,7 @@
 		overflow: hidden;
 	}
 	.about-us-box .cover-about{
-		padding:0px;
+		padding:0;
 	}
 	.about-us-box .cover-about img{
 		width: 100%;
