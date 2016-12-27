@@ -104,6 +104,9 @@
 	    display: inline-block;
 	    padding: 8px 0px 8px 8px;
 	}
+	#home .box-top .widget_wpglobus .dropdown-styled li{
+		background-color: #fff;
+	}
 	#home .box-top .widget_wpglobus .dropdown-styled li:hover{
 	}
 	#home .box-top .widget_wpglobus .dropdown-styled .wpglobus-selector-link {
@@ -1535,19 +1538,19 @@
 	/**** BOX CART close****/
 
 	/*** BOX CART CHECKOUT open***/
-	.checkout #content .box-cart-checkout .row form.woocommerce-checkout {
+	.ng-them .checkout #main .box-cart-checkout .row form.woocommerce-checkout {
 	    padding: 15px !important;
 	}
-.checkout #content form.login{
+.ng-them .checkout #main form.login{
 	padding: 30px!important;
   border: none !important;
   background-color: #f9f9f9 !important;
   margin-top: 0px;
 }
-.checkout #content form.login .form-row .inline input{
+.ng-them .checkout #main form.login .form-row .inline input{
 
 }
-.checkout #content form.login .form-row input.input-text{
+.ng-them .checkout #main form.login .form-row input.input-text{
 	width: 50%;
 	height: 45px;
 	padding: 0px 10px;
@@ -1555,17 +1558,17 @@
 	border: 1px solid #ececec;
 	background-color: #fff !important;
 }
-.checkout #content .box-cart-checkout form.login{
+.ng-them .checkout #main .box-cart-checkout form.login{
 	padding:30px;
 }
-	.checkout #content .box-cart-checkout form.checkout_coupon {
+.ng-them .checkout #main .box-cart-checkout form.checkout_coupon {
 	    padding: 33px 13px!important;
 	    margin: 0px 15px!important;
 	    background-color: #f7f7f7;
 	    border: inherit !important;
 	}
 
-	.checkout #content .box-cart-checkout .form-row .button {
+.ng-them .checkout #main .box-cart-checkout .form-row .button {
 	    outline: inherit;
 	    border: inherit;
 	    padding: 17px 15px;
@@ -1574,9 +1577,9 @@
 	    font-weight: 100;
 	}
 
-	.checkout #content .box-cart-checkout .form-row .button {}
+.ng-them .checkout #main .box-cart-checkout .form-row .button {}
 
-	.checkout #content .woocommerce form .form-row-last, .woocommerce-page form .form-row-last {
+.ng-them .checkout #main .woocommerce form .form-row-last, .woocommerce-page form .form-row-last {
 	    float: left;
 	}
 
@@ -1585,13 +1588,13 @@
 	    float: inherit;
 	}
 
-	.checkout #content .box-cart-checkout .login {
+.ng-them .checkout #main .box-cart-checkout .login {
 	    padding: 32px 43px;
 	}
 
-	.checkout #content .box-cart-checkout .form-row {}
+.ng-them .checkout #main .box-cart-checkout .form-row {}
 
-	.checkout #content .woocommerce-info {
+.ng-them .checkout #main .woocommerce-info {
 	    border-top-color: #ffae28 !important;
 	    background-color: #f9f9f9 !important;
 	    color: #999 !important;
@@ -1599,15 +1602,15 @@
 			margin-top: 20px !important;
 	}
 
-	.checkout #content .woocommerce-info:before {
+.ng-them .checkout #main .woocommerce-info:before {
 	    color: #3c3c3c !important;
 	}
 
-	.checkout #content .woocommerce-info .showlogin, .checkout #content .woocommerce-info .showcoupon {
+.ng-them .checkout #main .woocommerce-info .showlogin, .checkout #content .woocommerce-info .showcoupon {
 	    color: #000 !important;
 	}
 
-	.checkout #content .woocommerce-info form .form-row .input-text {
+.ng-them .checkout #main .woocommerce-info form .form-row .input-text {
 	    height: 45px;
 	    padding: 15px 25px;
 	}
