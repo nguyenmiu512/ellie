@@ -110,10 +110,9 @@
 	    padding: 8px 0px 8px 8px;
 	}
 	#home .box-top .widget_wpglobus .dropdown-styled li:hover{
-		background-color:#fff !important;
 	}
 	#home .box-top .widget_wpglobus .dropdown-styled .wpglobus-selector-link {
-		
+
 	}
 	#home .box-top .widget_wpglobus .dropdown-styled li ul{
 		top: 23px;
@@ -126,7 +125,7 @@
 		margin:0px;
 	}
 	#home .box-top .widget_wpglobus .dropdown-styled li:hover ul li a.wpglobus-selector-link {
-		padding: 0 13px 0px 0px!important;
+		padding: 4px 13px 0px 0px!important;
 		display: block;
 	}
 	#home .box-top {

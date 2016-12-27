@@ -23,6 +23,9 @@
     .box-collect{
       padding-top:0px;
     }
+    .collect-item .list-item-left .items{
+      margin-left: 0px;
+    }
     /* INDEX close*/
 
     /* CATEGORY open*/
