@@ -2009,7 +2009,30 @@
 	#newsletter .para-thank form {
 	    margin: 3px 87px;
 	}
-
+	#newsletter .para-thank form table tr td .tnp-email{
+		padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	}
+	#newsletter .para-thank form table tr .tnp-td-submit .tnp-email{
+		background-color: #ffae28;
+		color: #fff;
+		border-radius: 200px;
+		padding: 10px 20px;
+		display: block;
+		width: 20%;
+		margin: 27px auto 27px;
+	}
 	#newsletter .para-thank form input {
 	    outline: none;
 	    margin: 30px 0px;
