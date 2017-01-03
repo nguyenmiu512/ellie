@@ -125,6 +125,7 @@
 	#home .box-top .widget_wpglobus .dropdown-styled li:hover ul li a.wpglobus-selector-link {
 		padding: 4px 13px 0px 0px!important;
 		display: block;
+		background-color: #fff;
 	}
 	#home .box-top {
 	    background-color: #fff;
