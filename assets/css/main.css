@@ -1769,7 +1769,18 @@
 	}
 	/***** BOX BLOG DETAIL close ********/
 	/***** BOX LOGIN open ********/
-
+	.ng-them #customer_login .u-column1{
+			background-color: #f9f9f9;
+			padding:10px;
+	}
+	.ng-them #customer_login .u-column1 .login{
+		border:inherit !important;
+	}
+	.ng-them #customer_login .u-column1 .login .woocommerce-FormRow input{
+		background-color: #fff !important;
+    border: none !important;
+    padding: 10px 8px !important;
+	}
 	.login-row .login-left, .login-row .login-right {
 	    padding: 30px 50px;
 			}
@@ -2011,7 +2022,7 @@
 	    margin: 3px 87px;
 	}
 	#newsletter .para-thank form table tr td .tnp-email{
-		padding: 6px 12px;
+		padding: 10px 12px;
     font-size: 14px;
     line-height: 1.42857143;
     color: #555;
