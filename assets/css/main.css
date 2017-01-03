@@ -2035,9 +2035,12 @@
 		margin: 27px auto 27px;
 	}
 	#newsletter .para-thank form input {
-	    outline: none;
-	    margin: 30px 0px;
-	    height: 47px;
+		background-color: #ffae28;
+		color: #fff;
+		border-radius: 200px;
+		padding: 10px 20px;
+		display: block;
+		margin: 0px auto;
 	}
 
 	#newsletter .para-thank .btn-popup-subsc {
