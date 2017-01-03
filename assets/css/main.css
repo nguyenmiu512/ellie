@@ -1769,14 +1769,14 @@
 	}
 	/***** BOX BLOG DETAIL close ********/
 	/***** BOX LOGIN open ********/
-	.ng-them #customer_login .u-column1{
+	.ng-theme #customer_login .u-column1{
 			background-color: #f9f9f9;
 			padding:10px;
 	}
-	.ng-them #customer_login .u-column1 .login{
+	.ng-theme #customer_login .u-column1 .login{
 		border:inherit !important;
 	}
-	.ng-them #customer_login .u-column1 .login .woocommerce-FormRow input{
+	.ng-theme #customer_login .u-column1 .login .woocommerce-FormRow input{
 		background-color: #fff !important;
     border: none !important;
     padding: 10px 8px !important;
