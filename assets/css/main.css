@@ -1831,6 +1831,12 @@
 .ng-theme #main .woocommerce-MyAccount-content fieldset{
 	padding: 6px 27px;
 }
+.ng-theme #main .woocommerce-MyAccount-content .woocommerce-Address .woocommerce-Address-title .edit{
+	color: #828282;
+	border: 1px solid #a5a5a5;
+	padding: 10px;
+	margin-top: 24px;
+}
 .ng-theme #main .woocommerce-MyAccount-content .woocommerce-info{
 	border-top-color: #ffad0e;
 }
