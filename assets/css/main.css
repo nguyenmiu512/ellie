@@ -1563,7 +1563,10 @@
 	padding-left: 10px;
 	margin-top: 30px;
 }
-.ng-theme .box-cart .u-columns form.login .form-row #rememberme:checked + label.inline::before {
+.ng-theme .box-cart .u-columns form.login .form-row label.inline input{
+	opacity: 0;
+}
+.ng-theme .box-cart .u-columns form.login .form-row #rememberme:checked + label.inline:before {
 		content: "\5a";
 }
 
