@@ -1286,7 +1286,7 @@
 	    margin-bottom: 0px !important;
 	}
 	.box-cart .woocommerce-cart{
-		padding:100px 0px;
+		padding:0px;
 	}
 	.box-cart .woocommerce-cart .cart-empty,
 	.box-cart .woocommerce-cart .return-to-shop{
@@ -1550,6 +1550,39 @@
 }
 .ng-theme .checkout #main form.login .form-row .inline input{
 
+}
+.ng-theme .checkout #main form.login .form-row label.inline{
+	display: inline-block;
+	color: #000;
+	font-weight: 500;
+	text-transform: inherit;
+	position: relative;
+	line-height: 1;
+	font-size: 14px;
+	padding-left: 10px;
+	margin-top: 30px;
+}
+.ng-theme .checkout #main form.login .form-row #rememberme:checked + label.inline::before {
+		content: "\5a";
+}
+
+.ng-theme .checkout #main form.login .form-row label.inline::before{
+	content: "\56";
+	display: inline-block;
+	font: normal normal normal 14px/1 ElegantIcons;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transform: translate(0);
+	transform: translate(0);
+	font-size: 20px;
+	position: absolute;
+	top: -2px;
+	left: -0px;
+	color: #000;
+	-webkit-transition: .5s;
+	transition: .5s;
+	font-weight: 700;
 }
 .ng-theme .checkout #main form.login .form-row input.input-text{
 	width: 50%;
