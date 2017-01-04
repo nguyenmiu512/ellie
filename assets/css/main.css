@@ -1805,6 +1805,20 @@
 	    width: 100%;
 	}
 	/***** BOX BLOG DETAIL close ********/
+
+/***** BOX MY ACCOUNT open ********/
+.ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link{
+	margin: 9px 0px;
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 10px;
+}
+.ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link a{
+	color: #565656;
+  display: block;
+}
+/***** BOX MY ACCOUNT close ********/
+
+
 	/***** BOX LOGIN open ********/
 	.ng-theme #customer_login .u-column1{
 			background-color: #f9f9f9;
