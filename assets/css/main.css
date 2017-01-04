@@ -1773,10 +1773,18 @@
 			background-color: #f9f9f9;
 			padding:10px;
 	}
+	.ng-theme #customer_login .u-column1  h2,
+	.ng-theme #customer_login .u-column2  h2{
+		padding-left: 21px;
+    margin-bottom: 0px;
+		font-size: 24px;
+	}
 	.ng-theme #customer_login .u-column1 .login{
 		border:inherit !important;
+		padding-top: 3px;
 	}
-	.ng-theme #customer_login .u-column1 .login .woocommerce-FormRow input{
+	.ng-theme #customer_login .u-column1 .login .woocommerce-FormRow input,
+	.ng-theme #customer_login .u-column2 .register .woocommerce-FormRow input{
 		background-color: #fff !important;
     border: none !important;
     padding: 10px 8px !important;
