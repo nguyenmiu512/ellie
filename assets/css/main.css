@@ -1827,8 +1827,12 @@
 .ng-theme #main .woocommerce-MyAccount-content p a{
 	color: #ef9d00;
 }
-.ng-theme #main .woocommerce-MyAccount-content .woocommerce-FormRow{
-	padding: 12px 0px;
+.ng-theme #main .woocommerce-MyAccount-content .woocommerce-FormRow,
+.ng-theme #main .woocommerce-MyAccount-content fieldset{
+	padding: 6px 27px;
+}
+.ng-theme #main .woocommerce-MyAccount-content fieldset{
+	margin-top:47px;
 }
 .ng-theme #main .woocommerce-MyAccount-content .woocommerce-FormRow input.woocommerce-Input{
 	padding: 9px 5px;
