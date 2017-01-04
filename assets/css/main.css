@@ -1821,7 +1821,7 @@
   display: block;
 }
 .ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link a:hover,
-.ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link a.is-active{
+.ng-theme #main .woocommerce-MyAccount-navigation ul .is-active a{
 	color: #ef9d00;
 }
 .ng-theme #main .woocommerce-MyAccount-content p a{
@@ -1831,11 +1831,28 @@
 .ng-theme #main .woocommerce-MyAccount-content fieldset{
 	padding: 6px 27px;
 }
+.ng-theme #main .woocommerce-MyAccount-content .woocommerce-info{
+	border-top-color: #ffad0e;
+}
+.ng-theme #main .woocommerce-MyAccount-content .woocommerce-info .woocommerce-Button {
+	background-color: #5bc578;
+	color: #fff;
+	font-weight: 100;
+}
 .ng-theme #main .woocommerce-MyAccount-content fieldset{
 	margin-top:47px;
 }
-.ng-theme #main .woocommerce-MyAccount-content .woocommerce-FormRow input.woocommerce-Input{
+.ng-theme #main .woocommerce-MyAccount-content .woocommerce-FormRow input.woocommerce-Input,
+.ng-theme #main .woocommerce-MyAccount-content #billing_first_name_field input.input-text {
 	padding: 9px 5px;
+}
+.ng-theme #main .woocommerce-MyAccount-content p input.button{
+	margin: 40px 0px;
+	background-color: #ffad0e;
+	width: 40%;
+	padding: 13px 8px;
+	color: #fff;
+	font-weight: 100;
 }
 /***** BOX MY ACCOUNT close ********/
 
