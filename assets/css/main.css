@@ -1812,9 +1812,20 @@
 	border-bottom: 1px solid #ececec;
 	padding-bottom: 10px;
 }
-.ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link a{
+.ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link:last-child{
+	border-bottom:none;
+}
+.ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link a
+{
 	color: #565656;
   display: block;
+}
+.ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link a:hover,
+.ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link a.is-active{
+	color: #ef9d00;
+}
+.ng-theme #main .woocommerce-MyAccount-content p a{
+	color: #ef9d00;
 }
 /***** BOX MY ACCOUNT close ********/
 
