@@ -1821,7 +1821,8 @@
   display: block;
 }
 .ng-theme #main .woocommerce-MyAccount-navigation ul .woocommerce-MyAccount-navigation-link a:hover,
-.ng-theme #main .woocommerce-MyAccount-navigation ul .is-active a{
+.ng-theme #main .woocommerce-MyAccount-navigation ul .is-active a,
+.ng-theme #main .woocommerce-MyAccount-content .woocommerce-Address .woocommerce-Address-title .edit:hover{
 	color: #ef9d00;
 }
 .ng-theme #main .woocommerce-MyAccount-content p a{
@@ -1849,7 +1850,7 @@
 	margin-top:47px;
 }
 .ng-theme #main .woocommerce-MyAccount-content .woocommerce-FormRow input.woocommerce-Input,
-.ng-theme #main .woocommerce-MyAccount-content #billing_first_name_field input.input-text {
+.ng-theme #main .woocommerce-MyAccount-content .form-row input.input-text {
 	padding: 9px 5px;
 }
 .ng-theme #main .woocommerce-MyAccount-content p input.button{
