@@ -1562,11 +1562,11 @@
 	padding-left: 10px;
 	margin-top: 30px;
 }
-.ng-theme .checkout #main form.login .form-row #rememberme:checked + label.inline::before {
+.ng-theme .box-cart #main form.login .form-row #rememberme:checked + label.inline::before {
 		content: "\5a";
 }
 
-.ng-theme .checkout #main form.login .form-row label.inline::before{
+.ng-theme .box-cart #home form.login .form-row label.inline::before{
 	content: "\56";
 	display: inline-block;
 	font: normal normal normal 14px/1 ElegantIcons;
