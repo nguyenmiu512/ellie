@@ -1,11 +1,16 @@
 /* CSS Document */
 
 @media (min-width: 992px) {
-    /*.tab{width: 50% ;}*/
+  .ng-theme #home .box-top .topbar{
+    display: none;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-
+.ng-theme #home .box-top .topbar{
+  display: none;
+}
 }
 
 @media (min-width: 320px) and (max-width: 768px) {
@@ -25,6 +30,9 @@
     }
     .collect-item .list-item-left .items{
       margin-left: 0px;
+    }
+    .menu-mobile{
+      display: block;
     }
     /* INDEX close*/
 
