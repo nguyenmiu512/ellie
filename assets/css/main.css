@@ -1849,6 +1849,9 @@
 .ng-theme #main .woocommerce-MyAccount-content fieldset{
 	margin-top:47px;
 }
+.ng-theme #home #newsletter .modal-dialog{
+	margin-top: 79px;
+}
 .ng-theme #main .woocommerce-MyAccount-content .woocommerce-FormRow input.woocommerce-Input,
 .ng-theme #main .woocommerce-MyAccount-content .form-row input.input-text {
 	padding: 9px 5px;
@@ -1997,7 +2000,12 @@
 	    text-align: center;
 	    padding: 30px 0px;
 	}
-
+	.box-newsletter .in-newsletter table tbody tr{
+		display: inline-block;
+	}
+	.box-newsletter .in-newsletter table tbody tr:last-child{
+		margin-left:5px;
+	}
 	.box-newsletter .label-newsletter, .box-newsletter .inputbox-newsletter, .box-newsletter .btn-sucribe {
 	    display: inline-block;
 	}
