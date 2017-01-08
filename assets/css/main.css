@@ -2002,6 +2002,7 @@
 	}
 	.box-newsletter .in-newsletter table tbody tr{
 		display: inline-block;
+		margin:10px 0px;
 	}
 	.box-newsletter .in-newsletter table tbody tr:last-child{
 		margin-left:10px;
