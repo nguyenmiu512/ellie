@@ -260,6 +260,7 @@
 			height: 220px;
 			opacity: 0.9;
 			padding: 12px 0px;
+			border:1px solid #ececec;
 	}
 	.nav-left ul li:hover .drop-down a, .nav-right ul li:hover .drop-down a {
 	    color: #010101;
