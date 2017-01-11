@@ -40,6 +40,12 @@
       width: 152px;
       height: 76px;
     }
+    .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
+      background: url('../images/logo-ellievu-mobile@2x.png') 27px 11px no-repeat;
+      display: block;
+      width: 238px;
+      height: 110px;
+    }
     .ng-theme #home .menu-mobile .navbar-collapse ul li a .fa{
       padding-left:10px;
     }
@@ -119,6 +125,32 @@
       border: none;
     }
     /*FORM close*/
+
+    /*BLOG open*/
+    .ng-theme  .blog-box .content-blog,
+    .ng-theme  .blog-box .content-blog .content-blog-left,
+    .ng-theme  .blog-box .content-blog .content-blog-left .feature{
+      padding:0px;
+    }
+    .img-item-blog a {
+      width: 100%;
+    }
+    .list-news-blog{
+      padding:0px;
+    }
+    .title-item-blog .title-item{
+      margin: 10px 0px;
+    }
+    .img-list-review a{
+      width: 100%;
+    }
+    /*BLOG close*/
+
+    /*MAP open*/
+    #map{
+      width: 100%;
+    }
+    /*MAP close*/
 
     #home .block-search .ic-languages-top a {
         background: url('../images/eng-flag@2x.png') no-repeat 0px 0px;
