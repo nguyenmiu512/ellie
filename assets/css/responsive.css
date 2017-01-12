@@ -32,20 +32,22 @@
       background-color:#fff;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed .icon-bar,
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
       background-color: #585858;
     }
-    .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
+    /**.ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
       background: url('../images/logo-ellievu-mobile.png') 27px 11px no-repeat;
       display: block;
       width: 152px;
       height: 76px;
     }
+    **/
     .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
       background: url('../images/logo-ellievu-mobile@2x.png') 27px 11px no-repeat;
-      background-size:88px 45px;
-      width: 196px;
-      height:90px;
+      background-size:190px 86px;
+      width: 190px;
+      height:86px;
 
     }
     .ng-theme #home .menu-mobile .navbar-collapse ul li a .fa{
