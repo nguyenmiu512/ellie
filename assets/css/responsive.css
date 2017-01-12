@@ -25,6 +25,7 @@
       background-color: #ffae0f !important;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed,
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
       margin-top:22px;
     }
