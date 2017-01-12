@@ -30,8 +30,7 @@
     }
 
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed .icon-bar,
-    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar,
-    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar{
       background-color: #585858;
     }
     .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
