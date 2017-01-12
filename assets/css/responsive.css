@@ -45,9 +45,10 @@
     }
     .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
       background: url('../images/logo-ellievu-mobile@2x.png') 27px 11px no-repeat;
-      background-size:00px 46px;
-      height:200px;
-      width: 92px;
+      background-size:88px 45px;
+      width: 196px;
+      height:90px;
+
     }
     .ng-theme #home .menu-mobile .navbar-collapse ul li a .fa{
       padding-left:10px;
