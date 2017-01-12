@@ -82,6 +82,18 @@
     }
     /* INDEX close*/
 
+    /* LIST open*/
+    .best-seller .items-in-list .link-title, .box-list .items-in-list .link-title{
+      width: 100%;
+    }
+    .in-box-breadcrumn a{
+      margin-top:14px;
+    }
+    .in-box-breadcrumn .woocommerce-breadcrumb, .in-box-breadcrumn .woocommerce-breadcrumb a{
+      height: 32px!important;
+    }
+    /* LIST close*/
+
     /* CATEGORY open*/
     .best-seller .items-in-list .link-image a, .box-list .items-in-list .link-image .to-link-image,
     .listing .link-image{
