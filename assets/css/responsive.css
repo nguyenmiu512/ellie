@@ -29,7 +29,16 @@
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
       margin-top:22px;
     }
-
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
+      background-color: #d68a00;
+      border-color:#d68a00;
+    }
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar{
+      background-color: #ffae0f;
+    }
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-nav{
+      margin-top:0px;
+    }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed .icon-bar,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar{
       background-color: #585858;
