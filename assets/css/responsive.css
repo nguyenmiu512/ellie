@@ -21,7 +21,7 @@
       background-color: #fff;
     }
     header{
-      background-color: #ffae0f;
+      background-color: #ffae0f !important;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile{
       border-bottom: 1px solid #ececec;
