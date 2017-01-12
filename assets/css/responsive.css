@@ -22,6 +22,7 @@
     }
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile{
       border-bottom: 1px solid #ececec;
+      background-color: #ffae0f;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
@@ -42,7 +43,9 @@
     }
     .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
       background: url('../images/logo-ellievu-mobile@2x.png') 27px 11px no-repeat;
-      background-size:200px 92px;
+      background-size:00px 46px;
+      height:200px;
+      width: 92px;
     }
     .ng-theme #home .menu-mobile .navbar-collapse ul li a .fa{
       padding-left:10px;
