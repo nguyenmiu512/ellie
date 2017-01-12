@@ -20,9 +20,11 @@
     .ng-theme #home .menu-mobile .navbar-inverse{
       background-color: #fff;
     }
+    header{
+      background-color: #ffae0f;
+    }
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile{
       border-bottom: 1px solid #ececec;
-      background-color: #ffae0f;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
