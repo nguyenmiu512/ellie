@@ -87,10 +87,16 @@
       width: 100%;
     }
     .in-box-breadcrumn a{
-      margin-top:14px;
+      padding-top: 16px;
     }
     .in-box-breadcrumn .woocommerce-breadcrumb, .in-box-breadcrumn .woocommerce-breadcrumb a{
       height: 32px!important;
+    }
+    .box-list .filter,
+    .box-list .filter .count-items,
+    .box-list .listing
+    {
+      padding:0px;
     }
     /* LIST close*/
 
