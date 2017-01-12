@@ -22,7 +22,6 @@
     }
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile{
       border-bottom: 1px solid #ececec;
-      background-color: #ffae0f !important;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle,
@@ -44,12 +43,14 @@
       background-color: #585858;
     }
     .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
-      background: url('../images/logo-ellievu-mobile@2x.png') 20px 14px no-repeat;
-      background-size: 170px 77px;
+      background: url('../images/logo-ellievu-mobile@2x.png') 24px 17px no-repeat;
+      background-size: 138px 63px;
       width: 219px;
-      height: 84px;
+      height: 73px;
       display: block;
-
+    }
+    #newsletter .para-thank form table tr td .tnp-email{
+      outline: none;
     }
     .ng-theme #home .menu-mobile .navbar-collapse ul li a .fa{
       padding-left:10px;
