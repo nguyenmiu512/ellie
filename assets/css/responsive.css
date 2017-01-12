@@ -28,26 +28,17 @@
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
       margin-top:22px;
     }
-    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle {
-      background-color:#fff;
-    }
+
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed .icon-bar,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
       background-color: #585858;
-    }
-    /**.ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
-      background: url('../images/logo-ellievu-mobile.png') 27px 11px no-repeat;
-      display: block;
-      width: 152px;
-      height: 76px;
-    }
-    **/
+    }  
     .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
       background: url('../images/logo-ellievu-mobile@2x.png') 27px 11px no-repeat;
       background-size:190px 86px;
-      width: 190px;
-      height:86px;
+      width: 225px;
+      height:84px;
 
     }
     .ng-theme #home .menu-mobile .navbar-collapse ul li a .fa{
