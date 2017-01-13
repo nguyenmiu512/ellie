@@ -28,11 +28,12 @@
     }
     .ng-theme #home .menu-mobile .navbar-inverse,
     #home .menu-mobile .navbar-inverse{
-      background-color: #ffb41f;
+      background-color:#fff;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile,
     #home .menu-mobile .navbar-inverse .navbar-header-mobile{
       border-bottom: 1px solid #ececec;
+      background-color: #ffb41f;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed,
     #home .menu-mobile .navbar-inverse .collapsed,
