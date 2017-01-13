@@ -14,35 +14,55 @@
 
 @media (min-width: 320px) and (max-width: 768px) {
     /* INDEX open*/
-    .ng-theme #home .header-top .topbar{
+    .wrapper {
+    padding-top: 74px;
+    }
+    .ng-theme .box-collect .collect-item,
+    .ng-theme .box-collect .collect-item .list-items{
+      padding:5px 0px;
+    }
+    .ng-theme #home .header-top .topbar,
+    #home .header-top .topbar,
+    #home .box-top{
       display: none;
     }
-    .ng-theme #home .menu-mobile .navbar-inverse{
-      background-color: #fff;
+    .ng-theme #home .menu-mobile .navbar-inverse,
+    #home .menu-mobile .navbar-inverse{
+      background-color: #ffb41f;
     }
-    .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile{
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile,
+    #home .menu-mobile .navbar-inverse .navbar-header-mobile{
       border-bottom: 1px solid #ececec;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed,
+    #home .menu-mobile .navbar-inverse .collapsed,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle,
-    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
+    #home .menu-mobile .navbar-inverse .navbar-toggle,
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover,
+    #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
       margin-top:22px;
     }
-    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover,
+    #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
       background-color: #d68a00;
       border-color:#d68a00;
     }
-    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar{
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar,
+    #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar{
       background-color: #ffae0f;
     }
-    .ng-theme #home .menu-mobile .navbar-inverse .navbar-nav{
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-nav,
+    #home .menu-mobile .navbar-inverse .navbar-nav{
       margin-top:0px;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed .icon-bar,
-    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar{
+    #home .menu-mobile .navbar-inverse .collapsed .icon-bar,
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar,
+    #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar{
       background-color: #585858;
     }
-    .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile{
+    .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile,
+    #home .menu-mobile .navbar-header .navbar-logo-mobile{
       background: url('../images/logo-ellievu-mobile@2x.png') 24px 17px no-repeat;
       background-size: 138px 63px;
       width: 219px;
@@ -73,6 +93,10 @@
     }
     .box-collect{
       padding-top:0px;
+    }
+    .box-collect .collect-item,
+    .box-collect .collect-item .list-item-cover {
+      padding:0px;
     }
     .collect-item .list-item-left .items{
       margin-left: 0px;
