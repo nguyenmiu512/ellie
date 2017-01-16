@@ -29,10 +29,11 @@
     .ng-theme #home .menu-mobile .navbar-inverse,
     #home .menu-mobile .navbar-inverse{
       background-color:#fff;
+      border-color:inherit;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile,
     #home .menu-mobile .navbar-inverse .navbar-header-mobile{
-      border-bottom: 1px solid #ececec;
+      border-bottom: 1px solid #ffb41f;
       background-color: #ffb41f;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .collapsed,
@@ -42,6 +43,7 @@
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover,
     #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
       margin-top:22px;
+      border-color:#d68a00;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle:hover,
     #home .menu-mobile .navbar-inverse .navbar-toggle:hover{
@@ -60,7 +62,7 @@
     #home .menu-mobile .navbar-inverse .collapsed .icon-bar,
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar,
     #home .menu-mobile .navbar-inverse .navbar-toggle .icon-bar{
-      background-color: #585858;
+      background-color: #fff;
     }
     .ng-theme #home .menu-mobile .navbar-header .navbar-logo-mobile,
     #home .menu-mobile .navbar-header .navbar-logo-mobile{
@@ -105,6 +107,18 @@
     .menu-mobile{
       display: block;
     }
+    #newsletter .para-thank form{
+      margin:3px 10px !important;
+    }
+    #newsletter .para-thank .btn-popup-subsc, #newsletter .para-thank form input{
+      border-radius: 4px !important;
+    }
+    .box-newsletter .in-newsletter{
+      padding:0px !important;
+    }
+    .tnp-subscription{
+      padding: 0px 0px 10px 0px;
+    }
     /* INDEX close*/
 
     /* LIST open*/
@@ -122,6 +136,9 @@
     .box-list .listing
     {
       padding:0px;
+    }
+    .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+      color:#9d9d9d;
     }
     /* LIST close*/
 
