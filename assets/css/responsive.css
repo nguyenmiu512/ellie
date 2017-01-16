@@ -34,6 +34,9 @@
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-collapse{
       border-top: inherit !important;
     }
+    .ng-theme #home .menu-mobile .navbar-inverse .navbar-nav>li>a:hover{
+      color:#9d9d9d;
+    }
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile,
     #home .menu-mobile .navbar-inverse .navbar-header-mobile{
       border-bottom: 1px solid #ffb41f;
