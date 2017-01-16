@@ -29,7 +29,7 @@
     .ng-theme #home .menu-mobile .navbar-inverse,
     #home .menu-mobile .navbar-inverse{
       background-color:#fff;
-      border-color:inherit;
+      border-color: #ffb41f;
     }
     .ng-theme #home .menu-mobile .navbar-inverse .navbar-header-mobile,
     #home .menu-mobile .navbar-inverse .navbar-header-mobile{
