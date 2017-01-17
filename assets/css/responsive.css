@@ -125,6 +125,16 @@
     .tnp-subscription{
       padding: 0px 0px 10px 0px;
     }
+    .box-footer .ft-social .logo-ft img{
+      display: none;
+    }
+    .box-footer .ft-social .logo-ft{
+      background: url('../images/logo-footer-mobile@2x.png') center 0px no-repeat;
+      background-size: 118px 52px;
+      width: 236px;
+      height: 52px;
+      display: block;
+    }
     /* INDEX close*/
 
     /* LIST open*/
