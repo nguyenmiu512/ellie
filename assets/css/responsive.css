@@ -188,8 +188,12 @@
       text-align: center !important;
       padding:10px 0px !important;
     }
+    .filter-price{
+      margin-bottom:0px;
+    }
     .count-items .woocommerce-result-count{
-      float:left !important;
+      text-align: center;
+      padding: 10px 0px;
     }
     .blog-box, .box-cart, .box-list{
       padding-top:10px;
