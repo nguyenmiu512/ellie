@@ -180,8 +180,13 @@
     .filter-price .woocommerce-ordering{
       float:left !important;
     }
-    .filter-price:after, .filter-price:before{
+    /*.filter-price:after, .filter-price:before{
       right: -121px;
+    }*/
+    .ng-theme .boxlist .count-items .woocommerce-result-count{
+      float: inherit !important;
+      text-align: center !important;
+      padding:10px 0px !important;
     }
     .count-items .woocommerce-result-count{
       float:left !important;
