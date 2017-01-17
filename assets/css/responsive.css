@@ -135,6 +135,10 @@
       height: 52px;
       display: block;
     }
+    .cart_totals .wc-proceed-to-checkout .checkout-button{
+      padding: 0 20px!important;
+      letter-spacing: 0px;
+    }
     /* INDEX close*/
 
     /* LIST open*/
