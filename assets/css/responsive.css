@@ -15,7 +15,7 @@
 @media (min-width: 320px) and (max-width: 768px) {
     /* INDEX open*/
     .wrapper {
-    padding-top: 74px;
+    padding-top:109px;
     }
     .ng-theme .box-collect .collect-item,
     .ng-theme .box-collect .collect-item .list-items{
@@ -80,7 +80,7 @@
     }
     #home .menu-mobile .navbar-inverse, .ng-theme #home .menu-mobile .navbar-inverse .navbar-collapse .navbar-custom .mobile-menu-link{
       border-bottom: 1px solid #ececec;
-      padding: 4px 4px;
+      padding: 0px;
     }
     #home .menu-mobile .navbar-inverse, .ng-theme #home .menu-mobile .navbar-inverse .navbar-collapse .navbar-custom .mobile-menu-link:last-child{
       border-bottom: inherit !important;
@@ -122,6 +122,9 @@
     }
     #newsletter .para-thank form{
       margin:3px 10px !important;
+    }
+    #newsletter .para-thank form  table{
+      margin: 0 auto;
     }
     #newsletter .para-thank .btn-popup-subsc, #newsletter .para-thank form input{
       border-radius: 4px !important;
