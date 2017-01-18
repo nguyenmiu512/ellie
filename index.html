@@ -36,7 +36,7 @@
 
 <!-- Document Begin -->
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body class="ng-theme" data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <div class="wrapper" id="home">
 
@@ -294,8 +294,29 @@
 
       <!-- Navigation mobile open -->
                     <div class="menu-mobile">
+
+
+
                         <nav class="navbar navbar-inverse navbar-fixed-top inverse-custom">
+                          <section class="widget wpglobus-2 widget_wpglobus custom-top-cart">
                             <div class="container-fluid">
+                                <div class="dropdown-styled">
+                                    <ul>
+                                        <li>
+                                            <a class="wpglobus-selector-link wpglobus-current-language" href="#"><img src="http://ellievu.com/site/wp-content/plugins/wpglobus/flags/vn.png">&nbsp;&nbsp;Tiếng Việt</a>
+                                        </li>
+
+                                    </ul>
+                                    <div class="cart-mobile">
+                                      <a href="#"><span data-icon="&#xe015"></span>My cart<span class="count-item">(0)</span></a>
+                                    </div>
+                                </div>
+                                <div class="cart-mobile">
+                                </div>
+                              </div>
+                            </section>
+                            <div class="container-fluid">
+
                                 <div class="navbar-header navbar-header-mobile">
                                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                                         <span class="sr-only">Toggle navigation</span>
@@ -376,6 +397,10 @@
                                         </li>
                                         <li class="#">
                                           <a href="#" data-toggle="modal" data-target="#demoregistration">Contact
+                                          </a>
+                                        </li>
+                                        <li class="#">
+                                          <a href="#" data-toggle="modal" data-target="#demoregistration">Log in
                                           </a>
                                         </li>
                                     </ul>
