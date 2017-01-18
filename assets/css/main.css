@@ -181,6 +181,9 @@
 	    min-height: 0px;
 	    padding-right: 0px;
 	}
+	.ng-theme #home .filter-price .woocommerce-ordering{
+		float:left;
+	}
 	.navbar {
 	    border-radius: inherit;
 	    border: inherit;

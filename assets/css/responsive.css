@@ -78,6 +78,13 @@
       height: 73px;
       display: block;
     }
+    #home .menu-mobile .navbar-inverse, .ng-theme #home .menu-mobile .navbar-inverse .navbar-collapse .navbar-custom .mobile-menu-link{
+      border-bottom: 1px solid #ececec;
+      padding: 4px 4px;
+    }
+    #home .menu-mobile .navbar-inverse, .ng-theme #home .menu-mobile .navbar-inverse .navbar-collapse .navbar-custom .mobile-menu-link:last-child{
+      border-bottom: inherit !important;
+    }
     #newsletter .para-thank form table tr td .tnp-email{
       outline: none;
     }
@@ -138,6 +145,35 @@
     .cart_totals .wc-proceed-to-checkout .checkout-button{
       padding: 0 20px!important;
       letter-spacing: 0px;
+    }
+    .widget   .dropdown-styled ul{
+      width: 50%;
+      display: inline-block;;
+    }
+    .widget   .dropdown-styled .cart-mobile{
+      width: 50%;
+      float: right;
+    }
+    .widget   .dropdown-styled .cart-mobile a{
+      float:right;
+      color: #808080;
+      margin-top:5px;
+    }
+    .widget   .dropdown-styled .cart-mobile a span{
+      margin-right:7px;
+    }
+    .box-sidebar-right{
+      right:-8px;
+      top:29%;
+      left: inherit;
+    }
+    .ng-theme .cart-mobile a{
+
+    }
+    .custom-top-cart .dropdown-styled ul li a{
+      color: #808080;
+      margin-top:5px;
+      display: block;
     }
     /* INDEX close*/
 
@@ -207,6 +243,7 @@
     }
     .woocommerce-cart table.cart td.actions .coupon .input-text{
       float:none;
+      width: 100% !important;
     }
     /*LIST PROUDCT close*/
 
@@ -215,9 +252,12 @@
       width: 100%;
     }
     .box-cart-checkout form .form-row .input-text{
-      background-color: #f7f7f7;
+      background-color: #eaeaea;
       outline: none;
       border: none;
+    }
+    .box-cart-checkout #order_review #payment .place-order .button{
+      width: 100%;
     }
     /*FORM close*/
 
