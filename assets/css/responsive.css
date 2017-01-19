@@ -269,7 +269,8 @@
       padding: 10px 0px;
     }
     .blog-box, .box-cart, .box-list{
-      padding-top:10px;
+      padding-top: 29px;
+      padding-bottom: 29px;
     }
     #bx-pager2{
       margin: 6px 29px 7px 0;
@@ -319,6 +320,12 @@
       width: 100%;
     }
     /*MAP close*/
+
+    /*MY ACOUNT open*/
+    .ng-theme #customer_login .u-column1 .login{
+      padding: 10px 0px;
+    }
+    /*MY ACOUNT close*/
 
     #home .block-search .ic-languages-top a {
         background: url('../images/eng-flag@2x.png') no-repeat 0px 0px;
