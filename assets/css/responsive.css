@@ -241,7 +241,7 @@
     /* CATEGORY close*/
 
     /* DETAIl open*/
-    .content-detail{
+    .ng-theme .box-detail-box .content-detail{
       padding: 31px 0px;
     }
     .top-detail div.summary{
