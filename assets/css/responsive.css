@@ -325,6 +325,18 @@
     .ng-theme #customer_login .u-column1 .login{
       padding: 10px 0px;
     }
+    .ng-theme #customer_login .u-column1{
+      padding: 10px 0px !important;
+    }
+    .ng-theme .box-cart .u-columns form.login .form-row label.inline input{
+      opacity: 1;
+    }
+    .ng-theme .box-cart .u-columns form.login .form-row label.inline:before{
+      content:inherit;
+    }
+    .ng-theme #customer_login .u-column1 .login .woocommerce-FormRow input, .ng-theme #customer_login .u-column2 .register .woocommerce-FormRow input{
+      background-color: #dedede!important;
+    }
     /*MY ACOUNT close*/
 
     #home .block-search .ic-languages-top a {
