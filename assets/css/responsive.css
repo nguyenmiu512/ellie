@@ -332,12 +332,24 @@
       opacity: 1;
     }
     .ng-theme .box-cart .u-columns form.login .form-row label.inline:before{
-      content:inherit;
+      content:none !important;
     }
     .ng-theme #customer_login .u-column1 .login .woocommerce-FormRow input, .ng-theme #customer_login .u-column2 .register .woocommerce-FormRow input{
       background-color: #dedede!important;
     }
+    .ng-theme #customer_login .u-column1 .login .lost_password a{
+      color: #333346;
+      margin: 10px;
+      display: block;
+      text-decoration: underline;
+    }
     /*MY ACOUNT close*/
+
+    /*NEWSLETTER open*/
+    .ng-theme #home .lost_reset_password{
+      padding:24px;
+    }
+    /*NEWSLETTER close*/
 
     #home .block-search .ic-languages-top a {
         background: url('../images/eng-flag@2x.png') no-repeat 0px 0px;
