@@ -172,6 +172,14 @@
     .ng-theme .cart-mobile a{
 
     }
+    .box-newsletter .in-newsletter table tbody tr td{
+      text-transform: uppercase;
+    }
+    .woocommerce-message:before,
+    .woocommerce-message{
+      color: #49c125!important;
+    }
+
     .custom-top-cart .dropdown-styled .widget_wpglobus{
       display: inline-block;
       width: 35%;
