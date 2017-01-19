@@ -202,7 +202,7 @@
       display: none;
     }
     .in-bottom-bar a{
-      background: url('../images/all-card-payment@2x.png') center 0px no-repeat;
+      background: url('../images/all-card-payment@2x.png') center center no-repeat;
       background-size: 158px 23px;
       width: 240px;
       height: 46px;
