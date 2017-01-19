@@ -179,7 +179,7 @@
       float:inherit !important;
     }
     .widget_wpglobus .dropdown-styled li{
-      padding: 5px 0px !important; 
+      padding: 5px 0px !important;
     }
     .woocommerce-message:before,
     .woocommerce-message{
@@ -197,6 +197,16 @@
     }
     .widget_wpglobus .dropdown-styled{
       text-align: inherit !important;
+    }
+    .in-bottom-bar a img{
+      display: none;
+    }
+    .in-bottom-bar a{
+      background: url('../images/all-card-payment@2x.png') center 0px no-repeat;
+      background-size: 158px 23px;
+      width: 316px;
+      height: 46px;
+      display: block;
     }
     /* INDEX close*/
 
