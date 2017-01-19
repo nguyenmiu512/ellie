@@ -154,7 +154,7 @@
       display: inline-block;;
     }
     .widget   .dropdown-styled .cart-mobile{
-      width: 50%;
+
       float: right;
     }
     .widget   .dropdown-styled .cart-mobile a{
@@ -173,10 +173,17 @@
     .ng-theme .cart-mobile a{
 
     }
+    .custom-top-cart .dropdown-styled .widget_wpglobus{
+      display: inline-block;
+      width: 50%;
+    }
     .custom-top-cart .dropdown-styled ul li a{
       color: #808080;
       margin-top:5px;
       display: block;
+    }
+    .widget_wpglobus .dropdown-styled{
+      text-align: inherit !important;
     }
     /* INDEX close*/
 
