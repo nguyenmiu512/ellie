@@ -559,8 +559,10 @@
 	    transition: all .4s ease;
 	}
 
-	.collect-item .list-item-left .info .title-item a:hover, .collect-item .list-item-right .info .title-item a:hover, .collect-item .list-item-right2 .info .title-item a:hover, .collect-item .list-item-left2 .info .title-item a:hover, .collect-item .list-item-cover .info .title-item a:hover, .box-list .items-in-list .link-title a:hover, .title-item-blog .title-item a:hover, .img-list-review .title-list-review:hover, .content-blog-left .info .title-item a:hover {
+	.collect-item .list-item-left .info .title-item a:hover, .collect-item .list-item-right .info .title-item a:hover, .collect-item .list-item-right2 .info .title-item a:hover, .collect-item .list-item-left2 .info .title-item a:hover, .collect-item .list-item-cover .info .title-item a:hover, .box-list .items-in-list .link-title a:hover, .title-item-blog .title-item a:hover,
+	.img-list-review .title-list-review:hover, .content-blog-left .info .title-item a:hover {
 	    color: #ffc360;
+			text-decoration: none;
 	}
 
 	.list-item-cover {
@@ -2003,6 +2005,9 @@
 	.box-newsletter .in-newsletter {
 	    text-align: center;
 	    padding: 30px 0px;
+	}
+	.box-newsletter .in-newsletter table tbody trtr td{
+		padding-right: 10px;
 	}
 	.box-newsletter .in-newsletter table tbody tr{
 		display: inline-block;
