@@ -643,7 +643,7 @@
 	    font-size: 18px;
 	    color: #282828;
 	    display: block;
-	    height: 50px;
+	    height: auto;
 	    overflow: hidden;
 	    text-transform: uppercase;
 	    font-weight: 100;
