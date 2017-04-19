@@ -671,13 +671,7 @@
 	    opacity: 0.9;
 	}
 
-	.listing .items-in-list .link-image:hover .hover-list-item {
-	    -webkit-transform: translateZ(0);
-	    transform: translateZ(0);
-	    margin: 10px;
-	    width: 93%;
-	    opacity: 0.9;
-	}
+
 
 	.listing .items-in-list .link-image .hover-list-item .btn-cart-list {
 	    position: relative;
