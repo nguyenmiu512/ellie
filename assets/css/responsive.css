@@ -96,6 +96,7 @@
     }
     .slider-mobile{
       display: block;
+      margin-top:10px;
     }
     .collect-item .list-item-left2 .items .link-image a, .collect-item .list-item-left .items .link-image a, .collect-item .list-item-right2 .items .link-image a, .collect-item .list-item-right .items .link-image a,
     .collect-item .list-item-left2 .items, .collect-item .list-item-left .items, .collect-item .list-item-right2 .items, .collect-item .list-item-right .items{
