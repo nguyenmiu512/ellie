@@ -2008,10 +2008,11 @@
 		margin:10px 0px;
 	}
 	.box-newsletter .in-newsletter table tbody tr:last-child{
-		margin-left:10px;
+		margin-left:0px;
 	}
 	.box-newsletter .in-newsletter table tbody tr td .tnp-email{
 		background-color:#fff;
+		margin-left: 10px;
 	}
 	.box-newsletter .label-newsletter, .box-newsletter .inputbox-newsletter, .box-newsletter .btn-sucribe {
 	    display: inline-block;
