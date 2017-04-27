@@ -328,16 +328,18 @@
 	/***** BOX SIDEBAR open ********/
 
 	.box-sidebar-right {
-	    display: block;
-	    position: fixed;
-	    left: -8px;
-	    top: 18%;
-	    z-index: 99999;
-	    width: 52px;
-	    height: 187px;
-	    opacity: 0.5;
+		display: block;
+		position: fixed;
+		left: 0px;
+		bottom: -43px;
+		z-index: 99999;
+		width: 300px;
+		height: 100px;
+		opacity: 1;
 	}
-
+.box-sidebar-right ul{
+	margin-bottom:0px;
+}
 	.box-sidebar-right:hover {
 	    opacity: 1;
 	}
@@ -380,16 +382,16 @@
 	}
 
 	.box-sidebar-right ul .ic-facebook {
-	    background-color: #5476c3;
+	    background-color: #ffae28;
+			padding: 20px 0px;
 	}
-
-	.box-sidebar-right ul .ic-youtube {
-	    background-color: red;
+	.box-sidebar-right ul .ic-facebook a{
+		color:#282828;
+		font-size: 18px;
 	}
-
-	.box-sidebar-right ul .ic-insta {
-	    background-color: black;
-	}
+.box-sidebar-right ul .ic-facebook a .fa-phone{
+	padding-right:10px;
+}
 
 	.box-sidebar-right ul li {
 	    text-align: center;
@@ -626,6 +628,7 @@
 	    width: 298px;
 	    text-align: center;
 	    padding: 22px 0px;
+			height: 124px;
 	}
 
 	.box-list .items-in-list .link-title .price .sale-price, .best-seller .items-in-list .link-title .price .sale-price {
